@@ -1,0 +1,858 @@
+File ID: 6a0e97e0-d1f9-4ad8-a09e-1a5dfd2e97fa
+2023-12-14 10:56:33.454 [INFO]  RollingFileLoggerFactoryAdapter - [4] Logging initialized via instance Honeywell.Firebird.CoreLibrary.RollingFileLogger
+2023-12-14 10:56:33.640 [INFO]  FirebirdApp - [4] Init: Preparing environment
+2023-12-14 10:56:33.645 [INFO]  App - [4] Init: Preparing environment
+2023-12-14 10:56:33.647 [INFO]  DontOverrideRegistrationExtension - [4] Container already contain registration for Honeywell.Firebird.Module.IAppBaseModuleContext, skipping
+2023-12-14 10:56:33.648 [INFO]  App - [4] Init: Environment prepared
+2023-12-14 10:56:33.649 [INFO]  FirebirdApp - [4] Init: Environment prepared
+2023-12-14 10:56:33.650 [INFO]  DontOverrideRegistrationExtension - [4] Container already contain registration for Honeywell.Firebird.Module.IModuleContext, skipping
+2023-12-14 10:56:33.659 [INFO]  ModuleCatalog - [4] AddModule: GuidedWork.Devices.Droid.AndroidModule
+2023-12-14 10:56:33.765 [INFO]  ModuleCatalog - [4] AddModule: Honeywell.Firebird.Module.Scanner.Paris.Android.ParisScannerServiceModule
+2023-12-14 10:56:33.765 [INFO]  ModuleCatalog - [4] AddModule: Honeywell.Firebird.Module.BluetoothScanner.Android.AndroidBluetoothScannerServiceModule
+2023-12-14 10:56:33.769 [INFO]  ModuleCatalog - [4] AddModule: GuidedWork.GuidedWorkModuleXF
+2023-12-14 10:56:33.769 [INFO]  ModuleCatalog - [4] AddModule: Honeywell.GuidedWork.Core.MobileOnlyModule
+2023-12-14 10:56:33.769 [INFO]  ModuleCatalog - [4] AddModule: Honeywell.Firebird.Module.XamarinForms.Droid.XamarinFormsModuleAndroid
+2023-12-14 10:56:33.771 [INFO]  DontOverrideRegistrationExtension - [4] Container already contain registration for Honeywell.Firebird.IModuleCatalog, skipping
+2023-12-14 10:56:33.771 [INFO]  ModuleCatalog - [4] AddModule: Honeywell.GuidedWork.EmbeddedTtsA.TTSModule
+2023-12-14 10:56:37.448 [INFO]  ModuleCatalog - [4] AddModule: Honeywell.Firebird.Module.Core.BlueStreak.BlueStreakModule
+2023-12-14 10:56:37.653 [INFO]  MainActivity - [1] MainActivity.OnCreate
+2023-12-14 10:56:38.554 [INFO]  App - [1] LoadModulesAsync: Bootstrapping
+2023-12-14 10:56:38.659 [INFO]  MainActivity - [4] ----------------------------BANNER----------------------------
+2023-12-14 10:56:38.659 [INFO]  MainActivity - [4] Build Version Information: BaseOs: , Codename: REL, Incremental: 0076, PreviewSdkInt: 0, Release: 11, SdkInt: 30, SecurityPatch: 2022-06-05
+2023-12-14 10:56:38.659 [INFO]  MainActivity - [4] Build Information: Board: sdm660, Bootloader: unknown, Brand: Honeywell, Device: CT40-L1-C, Display: 92.00.08-(0076), Fingerprint: Honeywell/CT40/CT40-L1-C:11/92.00.08/0076:user/release-keys, Hardware: qcom, Host: CH3UU0009, Id: 92.00.08, Manufacturer: Honeywell, Model: CT40, Product: CT40, AndroidId: c8858f8a6cefaeaf, Supported32BitAbis: [armeabi-v7a,armeabi], Supported64BitAbis: [arm64-v8a], SupportedAbis: [arm64-v8a,armeabi-v7a,armeabi], Tags: release-keys, Time: 1660118529000, Type: user, User: jenkins-slave, RadioVersion: 
+2023-12-14 10:56:38.659 [INFO]  MainActivity - [4] Package Information: BaseRevisionCode: 0, FirstInstallTime: 1702531238121, InstallLocation: PreferExternal, LastUpdateTime: 1702531238121, PackageName: com.honeywell.GWSApp, Permissions: , Providers: , Receivers: , ReqFeatures: , RequestedPermissions: [android.permission.INTERNET,android.permission.READ_EXTERNAL_STORAGE,android.permission.ACCESS_NETWORK_STATE,android.permission.BLUETOOTH,android.permission.BLUETOOTH_ADMIN,android.permission.BROADCAST_STICKY,android.permission.CAMERA,android.permission.FOREGROUND_SERVICE,android.permission.MODIFY_AUDIO_SETTINGS,android.permission.RECEIVE_BOOT_COMPLETED,android.permission.RECORD_AUDIO,android.permission.WAKE_LOCK,android.permission.WRITE_EXTERNAL_STORAGE,com.honeywell.decode.permission.DECODE,com.symbol.emdk.permission.EMDK], RequestedPermissionsFlags: [3,1,3,3,3,3,1,3,3,3,1,3,1,3,1], Services: , SharedUserId: , SharedUserLabel: 0, SigningInfo: , SplitNames: , SplitRevisionCodes: , VersionName: 3.3.0, LongVersionCode: 3300000
+2023-12-14 10:56:38.659 [INFO]  MainActivity - [4] Application Information: AppComponentFactory: androidx.core.app.CoreComponentFactory, BackupAgentName: , Category: Undefined, ClassName: android.app.Application, CompatibleWidthLimitDp: 0, DataDir: /data/user/0/com.honeywell.GWSApp, DescriptionRes: 0, DeviceProtectedDataDir: /data/user_de/0/com.honeywell.GWSApp, Enabled: True, Flags: HasCode, AllowClearUserData, SupportsSmallScreens, SupportsNormalScreens, SupportsLargeScreens, ResizeableForScreens, SupportsScreenDensities, SupportsXLargeScreens, Installed, ExtractNativeLibs, HardwareAccelerated, LargestWidthLimitDp: 0, ManageSpaceActivityName: , MinSdkVersion: 24, NativeLibraryDir: /data/app/~~nYgekmEolyOMDMqzYOvq_w==/com.honeywell.GWSApp-DJt4Y-5JvtsipJxoKSrkNw==/lib/arm, Permission: , ProcessName: com.honeywell.GWSApp, PublicSourceDir: /data/app/~~nYgekmEolyOMDMqzYOvq_w==/com.honeywell.GWSApp-DJt4Y-5JvtsipJxoKSrkNw==/base.apk, RequiresSmallestWidthDp: 0, SharedLibraryFiles: [/system/framework/android.test.base.jar], SourceDir: /data/app/~~nYgekmEolyOMDMqzYOvq_w==/com.honeywell.GWSApp-DJt4Y-5JvtsipJxoKSrkNw==/base.apk, SplitNames: , SplitPublicSourceDirs: , SplitSourceDirs: , StorageUuid: 41217664-9172-527a-b3d5-edabb50a7d69, TargetSdkVersion: Q, TaskAffinity: com.honeywell.GWSApp, Theme: 0, UiOptions: None, Uid: 10246
+2023-12-14 10:56:38.975 [INFO]  ScanGWSConnectorPlugins - [1] Scanning for GWS Connector Plugins
+2023-12-14 10:56:39.018 [ERROR] ScanGWSConnectorPlugins - [1] Unable to enumerate directories
+=======================================================(inner most exception)===
+ (1) System.IO.IOException
+================================================================================
+
+Message:
+"Permission denied"
+
+Stack Trace:
+
+================================================================================
+================================================================================
+ (2) System.UnauthorizedAccessException
+================================================================================
+
+Message:
+"Access to the path '/storage/emulated/0/Documents/plugins' is denied."
+
+Stack Trace:
+  at System.IO.Enumeration.FileSystemEnumerator`1[TResult].CreateDirectoryHandle (System.String path, System.Boolean ignoreNotFound) [0x00032] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at System.IO.Enumeration.FileSystemEnumerator`1[TResult]..ctor (System.String directory, System.IO.EnumerationOptions options) [0x00048] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at System.IO.Enumeration.FileSystemEnumerable`1+DelegateEnumerator[TResult]..ctor (System.IO.Enumeration.FileSystemEnumerable`1[TResult] enumerable) [0x00000] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at System.IO.Enumeration.FileSystemEnumerable`1[TResult]..ctor (System.String directory, System.IO.Enumeration.FileSystemEnumerable`1+FindTransform[TResult] transform, System.IO.EnumerationOptions options) [0x00042] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at System.IO.Enumeration.FileSystemEnumerableFactory.UserDirectories (System.String directory, System.String expression, System.IO.EnumerationOptions options) [0x00014] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at System.IO.Directory.InternalEnumeratePaths (System.String path, System.String searchPattern, System.IO.SearchTarget searchTarget, System.IO.EnumerationOptions options) [0x00045] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at System.IO.Directory.GetDirectories (System.String path, System.String searchPattern, System.IO.EnumerationOptions enumerationOptions) [0x00000] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at System.IO.Directory.GetDirectories (System.String path) [0x0000b] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at VIO.VIOModule.ScanGWSConnectorPlugins () [0x0003d] in <d6a4a967d8ac467b8f572ba5e2800226>:0 
+================================================================================
+
+2023-12-14 10:56:39.035 [INFO]  ModuleCatalog - [1] AddModule: VIO.VIOModule
+2023-12-14 10:56:39.041 [INFO]  ModuleCatalog - [1] Load
+2023-12-14 10:56:39.050 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating Honeywell.GuidedWork.AppBase.AppBaseModuleImpl
+2023-12-14 10:56:39.052 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating GuidedWork.Devices.Droid.AndroidModule
+2023-12-14 10:56:39.053 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating Honeywell.Firebird.Module.Scanner.Paris.Android.ParisScannerServiceModule
+2023-12-14 10:56:39.054 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating Honeywell.Firebird.Module.BluetoothScanner.Android.AndroidBluetoothScannerServiceModule
+2023-12-14 10:56:39.054 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating Honeywell.Firebird.Module.XamarinForms.XamarinFormsModuleCommon
+2023-12-14 10:56:39.055 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating GuidedWork.GuidedWorkModuleXF
+2023-12-14 10:56:39.056 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating Honeywell.GuidedWork.Communication.CommunicationModule
+2023-12-14 10:56:39.057 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating RESTCommunication.RESTCommunicationModule
+2023-12-14 10:56:39.057 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating Honeywell.Firebird.Module.WorkflowEngine.WorkflowEngineModule
+2023-12-14 10:56:39.058 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating Honeywell.Firebird.Module.Core.CoreModule
+2023-12-14 10:56:39.059 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating Honeywell.GuidedWork.EnterpriseVoice.EnterpriseVoiceModule
+2023-12-14 10:56:39.061 [INFO]  DontOverrideRegistrationExtension - [1] Container already contain registration for Honeywell.EnterpriseVoice.IRSAKeyPairGenerator, skipping
+2023-12-14 10:56:39.062 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating Honeywell.GuidedWork.Core.GuidedWorkCoreModule
+2023-12-14 10:56:39.062 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating Honeywell.GuidedWork.Base.GuidedWorkBaseModule
+2023-12-14 10:56:39.063 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating Honeywell.GuidedWork.Base.VoiceConsoleCommModule
+2023-12-14 10:56:39.064 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating GuidedWork.GuidedWorkModuleImpl
+2023-12-14 10:56:39.064 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating Honeywell.GuidedWork.Core.MobileOnlyModule
+2023-12-14 10:56:39.065 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating GuidedWorkRunner.GuidedWorkRunnerModuleXF
+2023-12-14 10:56:39.065 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating GuidedWork.GuidedWorkModuleScan
+2023-12-14 10:56:39.066 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating GuidedWorkRunner.GuidedWorkRunnerModuleScan
+2023-12-14 10:56:39.066 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating Honeywell.Firebird.Module.XamarinForms.Droid.XamarinFormsModuleAndroid
+2023-12-14 10:56:39.067 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating Honeywell.GuidedWork.EmbeddedTtsA.TTSModule
+2023-12-14 10:56:39.067 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating Honeywell.Firebird.Module.Core.BlueStreak.BlueStreakModule
+2023-12-14 10:56:39.068 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating TCPSocketCommunication.TCPSocketCommunicationModule
+2023-12-14 10:56:39.068 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating GuidedWorkRunner.GuidedWorkRunnerModule
+2023-12-14 10:56:39.069 [INFO]  ModuleManager - [1] LoadModulesAsync: Creating VIO.VIOModule
+2023-12-14 10:56:39.070 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for Honeywell.GuidedWork.AppBase.AppBaseModuleImpl
+2023-12-14 10:56:39.070 [INFO]  DontOverrideRegistrationExtension - [1] Container already contain registration for Honeywell.Firebird.CoreLibrary.IConfigService, skipping
+2023-12-14 10:56:39.071 [INFO]  DontOverrideRegistrationExtension - [1] Container already contain registration for GuidedWork.IConfigurationDataService, skipping
+2023-12-14 10:56:39.071 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for GuidedWork.Devices.Droid.AndroidModule
+2023-12-14 10:56:39.072 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for Honeywell.Firebird.Module.Scanner.Paris.Android.ParisScannerServiceModule
+2023-12-14 10:56:39.126 [INFO]  ParisAndroidScannerService - [1] Initializing BarcodeReader for ParisAndroidScannerService
+2023-12-14 10:56:39.131 [INFO]  ParisScannerServiceModule - [1] Onboard scanner registered
+2023-12-14 10:56:39.131 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for Honeywell.Firebird.Module.BluetoothScanner.Android.AndroidBluetoothScannerServiceModule
+2023-12-14 10:56:39.133 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for Honeywell.Firebird.Module.XamarinForms.XamarinFormsModuleCommon
+2023-12-14 10:56:39.133 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for GuidedWork.GuidedWorkModuleXF
+2023-12-14 10:56:39.158 [INFO]  ViewRegistry - [1] RegisterView: GuidedWork.GuidedWorkHomeView, GuidedWork.GuidedWorkHomeView, XamarinPageViewAdapter
+2023-12-14 10:56:39.159 [INFO]  ViewRegistry - [1] RegisterView: GuidedWork.SettingsMenuView, GuidedWork.SettingsMenuView, XamarinPageViewAdapter
+2023-12-14 10:56:39.159 [INFO]  ViewRegistry - [1] RegisterView: GuidedWork.LanguagesMenuView, GuidedWork.LanguagesMenuView, XamarinPageViewAdapter
+2023-12-14 10:56:39.159 [INFO]  ViewRegistry - [1] RegisterView: GuidedWork.ApplicationSettingsView, GuidedWork.ApplicationSettingsView, XamarinPageViewAdapter
+2023-12-14 10:56:39.159 [INFO]  ViewRegistry - [1] RegisterView: GuidedWork.TrainingCarouselView, GuidedWork.TrainingCarouselView, XamarinPageViewAdapter
+2023-12-14 10:56:39.160 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.SelectView, Honeywell.Firebird.CoreLibrary.SelectView, XamarinPageViewAdapter
+2023-12-14 10:56:39.160 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.EnterNewWorkerView, Honeywell.Firebird.CoreLibrary.EnterNewWorkerView, XamarinPageViewAdapter
+2023-12-14 10:56:39.160 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.BooleanConfirmationView, Honeywell.Firebird.CoreLibrary.BooleanConfirmationView, XamarinPageViewAdapter
+2023-12-14 10:56:39.160 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.VoiceHelpView, Honeywell.Firebird.CoreLibrary.VoiceHelpView, XamarinPageViewAdapter
+2023-12-14 10:56:39.161 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.RequestPermissionsView, Honeywell.Firebird.CoreLibrary.RequestPermissionsView, XamarinPageViewAdapter
+2023-12-14 10:56:39.161 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.AboutApplicationView, Honeywell.Firebird.CoreLibrary.AboutApplicationView, XamarinPageViewAdapter
+2023-12-14 10:56:39.161 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.LegalView, Honeywell.Firebird.CoreLibrary.LegalView, XamarinPageViewAdapter
+2023-12-14 10:56:39.161 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.VoiceAndAudioSettingsView, Honeywell.Firebird.CoreLibrary.VoiceAndAudioSettingsView, XamarinPageViewAdapter
+2023-12-14 10:56:39.161 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.ScannerSettingsView, Honeywell.Firebird.CoreLibrary.ScannerSettingsView, XamarinPageViewAdapter
+2023-12-14 10:56:39.162 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.ManageTemplatesView, Honeywell.Firebird.CoreLibrary.ManageTemplatesView, XamarinPageViewAdapter
+2023-12-14 10:56:39.162 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.BackgroundActivityView, Honeywell.Firebird.CoreLibrary.BackgroundActivityView, XamarinPageViewAdapter
+2023-12-14 10:56:39.162 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.AbortableBackgroundActivityView, Honeywell.Firebird.CoreLibrary.AbortableBackgroundActivityView, XamarinPageViewAdapter
+2023-12-14 10:56:39.162 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.OperPrepView, Honeywell.Firebird.CoreLibrary.OperPrepView, XamarinPageViewAdapter
+2023-12-14 10:56:39.163 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.ReadyView, Honeywell.Firebird.CoreLibrary.ReadyView, XamarinPageViewAdapter
+2023-12-14 10:56:39.163 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.BooleanConfirmationView, Honeywell.Firebird.CoreLibrary.BooleanConfirmationView, XamarinPageViewAdapter
+2023-12-14 10:56:39.163 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.LoginView, Honeywell.Firebird.CoreLibrary.LoginView, XamarinPageViewAdapter
+2023-12-14 10:56:39.163 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.WorkflowSelectView, Honeywell.Firebird.CoreLibrary.WorkflowSelectView, XamarinPageViewAdapter
+2023-12-14 10:56:39.164 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.ServerSettingsView, Honeywell.Firebird.CoreLibrary.ServerSettingsView, XamarinPageViewAdapter
+2023-12-14 10:56:39.164 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.ReportProblemView, Honeywell.Firebird.CoreLibrary.ReportProblemView, XamarinPageViewAdapter
+2023-12-14 10:56:39.164 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.UpdateTrainSelectView, Honeywell.Firebird.CoreLibrary.UpdateTrainSelectView, XamarinPageViewAdapter
+2023-12-14 10:56:39.164 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for Honeywell.GuidedWork.Communication.CommunicationModule
+2023-12-14 10:56:39.165 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for RESTCommunication.RESTCommunicationModule
+2023-12-14 10:56:39.166 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for Honeywell.Firebird.Module.WorkflowEngine.WorkflowEngineModule
+2023-12-14 10:56:39.167 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for Honeywell.Firebird.Module.Core.CoreModule
+2023-12-14 10:56:39.179 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.ReadyDialogueView, Honeywell.Firebird.CoreLibrary.ReadyDialogueView, DialogueViewAdapter
+2023-12-14 10:56:39.179 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.SpeakOnCommandDialogueView, Honeywell.Firebird.CoreLibrary.SpeakOnCommandDialogueView, DialogueViewAdapter
+2023-12-14 10:56:39.180 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.OperPrepDialogueView, Honeywell.Firebird.CoreLibrary.OperPrepDialogueView, DialogueViewAdapter
+2023-12-14 10:56:39.180 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.SleepDialogueView, Honeywell.Firebird.CoreLibrary.SleepDialogueView, DialogueViewAdapter
+2023-12-14 10:56:39.180 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.ConfirmReadyDialogueView, Honeywell.Firebird.CoreLibrary.ConfirmReadyDialogueView, DialogueViewAdapter
+2023-12-14 10:56:39.180 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.SingleResponseDialogueView, Honeywell.Firebird.CoreLibrary.SingleResponseDialogueView, DialogueViewAdapter
+2023-12-14 10:56:39.180 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.DigitEntryDialogueView, Honeywell.Firebird.CoreLibrary.DigitEntryDialogueView, DialogueViewAdapter
+2023-12-14 10:56:39.181 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.AbortableBackgroundDialogueView, Honeywell.Firebird.CoreLibrary.AbortableBackgroundDialogueView, DialogueViewAdapter
+2023-12-14 10:56:39.181 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.SubmitProblemReportDialogueView, Honeywell.Firebird.CoreLibrary.SubmitProblemReportDialogueView, DialogueViewAdapter
+2023-12-14 10:56:39.181 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.SelectionDialogueView, Honeywell.Firebird.CoreLibrary.SelectionDialogueView, DialogueViewAdapter
+2023-12-14 10:56:39.181 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.BooleanConfirmationDialogueView, Honeywell.Firebird.CoreLibrary.BooleanConfirmationDialogueView, DialogueViewAdapter
+2023-12-14 10:56:39.181 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for Honeywell.GuidedWork.EnterpriseVoice.EnterpriseVoiceModule
+2023-12-14 10:56:39.182 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for Honeywell.GuidedWork.Core.GuidedWorkCoreModule
+2023-12-14 10:56:39.183 [INFO]  DontOverrideRegistrationExtension - [1] Container already contain registration for Honeywell.GuidedWork.Core.IAppBuildInfo, skipping
+2023-12-14 10:56:39.183 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for Honeywell.GuidedWork.Base.GuidedWorkBaseModule
+2023-12-14 10:56:39.184 [INFO]  DontOverrideRegistrationExtension - [1] Container already contain registration for Honeywell.Firebird.WorkflowEngine.INoiseSampleOverflowVoiceEnabled, skipping
+2023-12-14 10:56:39.184 [INFO]  DontOverrideRegistrationExtension - [1] Container already contain registration for Honeywell.Firebird.WorkflowEngine.IAdjustTtsSpeedOverflowVoiceEnabled, skipping
+2023-12-14 10:56:39.184 [INFO]  DontOverrideRegistrationExtension - [1] Container already contain registration for Honeywell.Firebird.WorkflowEngine.IReportProblemOverflowVoiceEnabled, skipping
+2023-12-14 10:56:39.185 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for Honeywell.GuidedWork.Base.VoiceConsoleCommModule
+2023-12-14 10:56:39.185 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for GuidedWork.GuidedWorkModuleImpl
+2023-12-14 10:56:39.185 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for Honeywell.GuidedWork.Core.MobileOnlyModule
+2023-12-14 10:56:39.189 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for GuidedWorkRunner.GuidedWorkRunnerModuleXF
+2023-12-14 10:56:39.190 [INFO]  ViewRegistry - [1] RegisterView: GuidedWorkRunner.GuidedWorkSignInView, GuidedWorkRunner.GuidedWorkSignInView, XamarinPageViewAdapter
+2023-12-14 10:56:39.191 [INFO]  ViewRegistry - [1] RegisterView: GuidedWorkRunner.GuidedWorkGetValueView, GuidedWorkRunner.GuidedWorkGetValueView, XamarinPageViewAdapter
+2023-12-14 10:56:39.191 [INFO]  ViewRegistry - [1] RegisterView: GuidedWorkRunner.GuidedWorkReadyView, GuidedWorkRunner.GuidedWorkReadyView, XamarinPageViewAdapter
+2023-12-14 10:56:39.191 [INFO]  ViewRegistry - [1] RegisterView: GuidedWorkRunner.GuidedWorkMenuView, GuidedWorkRunner.GuidedWorkMenuView, XamarinPageViewAdapter
+2023-12-14 10:56:39.192 [INFO]  ViewRegistry - [1] RegisterView: GuidedWorkRunner.GuidedWorkBooleanView, GuidedWorkRunner.GuidedWorkBooleanView, XamarinPageViewAdapter
+2023-12-14 10:56:39.192 [INFO]  ViewRegistry - [1] RegisterView: GuidedWorkRunner.GuidedWorkDateEntryView, GuidedWorkRunner.GuidedWorkDateEntryView, XamarinPageViewAdapter
+2023-12-14 10:56:39.192 [INFO]  ViewRegistry - [1] RegisterView: GuidedWorkRunner.GuidedWorkBackgroundActivityView, GuidedWorkRunner.GuidedWorkBackgroundActivityView, XamarinPageViewAdapter
+2023-12-14 10:56:39.192 [INFO]  ViewRegistry - [1] RegisterView: GuidedWorkRunner.GuidedWorkPhotoView, GuidedWorkRunner.GuidedWorkPhotoView, XamarinPageViewAdapter
+2023-12-14 10:56:39.193 [INFO]  ViewRegistry - [1] RegisterView: GuidedWorkRunner.GuidedWorkAudioCaptureView, GuidedWorkRunner.GuidedWorkAudioCaptureView, XamarinPageViewAdapter
+2023-12-14 10:56:39.193 [INFO]  ViewRegistry - [1] RegisterView: GuidedWorkRunner.GuidedWorkRecordMemoView, GuidedWorkRunner.GuidedWorkRecordMemoView, XamarinPageViewAdapter
+2023-12-14 10:56:39.193 [INFO]  ViewRegistry - [1] RegisterView: GuidedWorkRunner.GuidedWorkReviewMemosView, GuidedWorkRunner.GuidedWorkReviewMemosView, XamarinPageViewAdapter
+2023-12-14 10:56:39.193 [INFO]  ViewRegistry - [1] RegisterView: GuidedWorkRunner.GuidedWorkVoiceNoteView, GuidedWorkRunner.GuidedWorkVoiceNoteView, XamarinPageViewAdapter
+2023-12-14 10:56:39.193 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for GuidedWork.GuidedWorkModuleScan
+2023-12-14 10:56:39.194 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.ValidatingScannerView, Honeywell.Firebird.CoreLibrary.ValidatingScannerView, ScannerViewAdapter
+2023-12-14 10:56:39.195 [INFO]  ViewRegistry - [1] RegisterView: Honeywell.Firebird.CoreLibrary.ValidatingBluetoothScannerView, Honeywell.Firebird.CoreLibrary.ValidatingBluetoothScannerView, BluetoothScannerViewAdapter
+2023-12-14 10:56:39.195 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for GuidedWorkRunner.GuidedWorkRunnerModuleScan
+2023-12-14 10:56:39.196 [INFO]  ViewRegistry - [1] RegisterView: GuidedWorkRunner.GuidedWorkValidatingBluetoothScannerView, GuidedWorkRunner.GuidedWorkValidatingBluetoothScannerView, BluetoothScannerViewAdapter
+2023-12-14 10:56:39.196 [INFO]  ViewRegistry - [1] RegisterView: GuidedWorkRunner.GuidedWorkValidatingScannerView, GuidedWorkRunner.GuidedWorkValidatingScannerView, ScannerViewAdapter
+2023-12-14 10:56:39.196 [INFO]  ViewRegistry - [1] RegisterView: GuidedWorkRunner.GuidedWorkSignInBluetoothScannerView, GuidedWorkRunner.GuidedWorkSignInBluetoothScannerView, BluetoothScannerViewAdapter
+2023-12-14 10:56:39.197 [INFO]  ViewRegistry - [1] RegisterView: GuidedWorkRunner.GuidedWorkSignInScannerView, GuidedWorkRunner.GuidedWorkSignInScannerView, ScannerViewAdapter
+2023-12-14 10:56:39.197 [INFO]  ViewRegistry - [1] RegisterView: GuidedWorkRunner.GuidedWorkMenuItemScannerView, GuidedWorkRunner.GuidedWorkMenuItemScannerView, ScannerViewAdapter
+2023-12-14 10:56:39.197 [INFO]  ViewRegistry - [1] RegisterView: GuidedWorkRunner.GuidedWorkMenuItemBluetoothScannerView, GuidedWorkRunner.GuidedWorkMenuItemBluetoothScannerView, BluetoothScannerViewAdapter
+2023-12-14 10:56:39.197 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for Honeywell.Firebird.Module.XamarinForms.Droid.XamarinFormsModuleAndroid
+2023-12-14 10:56:39.197 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for Honeywell.GuidedWork.EmbeddedTtsA.TTSModule
+2023-12-14 10:56:39.198 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for Honeywell.Firebird.Module.Core.BlueStreak.BlueStreakModule
+2023-12-14 10:56:39.203 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for TCPSocketCommunication.TCPSocketCommunicationModule
+2023-12-14 10:56:39.204 [INFO]  DontOverrideRegistrationExtension - [1] Container already contain registration for System.Runtime.Serialization.IFormatter, skipping
+2023-12-14 10:56:39.205 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for GuidedWorkRunner.GuidedWorkRunnerModule
+2023-12-14 10:56:39.209 [INFO]  WorkflowResourceRegistry - [1] Referencing GuidedWorkRunnerModule, Version=1.11.2.0, Culture=neutral, PublicKeyToken=null's resources: GuidedWorkRunner.Resources.GuidedWorkRunner_wfa.json, GuidedWorkRunner.Resources.default-beep.wav, GuidedWorkRunner.Resources.startrecording.mp3, GuidedWorkRunner.Resources.stoprecording.mp3
+2023-12-14 10:56:39.211 [INFO]  DontOverrideRegistrationExtension - [1] Container already contain registration for GuidedWorkRunner.IAudio, skipping
+2023-12-14 10:56:39.211 [INFO]  DontOverrideRegistrationExtension - [1] Container already contain registration for GuidedWork.INaturalNumberService, skipping
+2023-12-14 10:56:39.213 [INFO]  ViewRegistry - [1] RegisterView: GuidedWorkRunner.GuidedWorkDialogueView, GuidedWorkRunner.GuidedWorkDialogueView, DialogueViewAdapter
+2023-12-14 10:56:39.213 [INFO]  ModuleManager - [1] LoadModulesAsync: registering services for VIO.VIOModule
+2023-12-14 10:56:39.216 [INFO]  WorkflowResourceRegistry - [1] Referencing VIOModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null's resources: VIO.VIOResources.resources, VIO.Views.XamarinPageViews.VIOServerSettingsView.xaml, VIO.Resources.Error.wav, VIO.Resources.Information.wav, VIO.Resources.Warning.wav, VIO.Resources.VIO_configuration.json, VIO.Resources.VIO_wfa.json, VIO.Resources.VIO_data.json, VIO.Resources.VIO_settings_wfa.json
+2023-12-14 10:56:39.560 [INFO]  ViewRegistry - [1] RegisterView: VIO.VIOServerSettingsView, VIO.VIOServerSettingsView, XamarinPageViewAdapter
+2023-12-14 10:56:39.578 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing Honeywell.GuidedWork.AppBase.AppBaseModuleImpl
+2023-12-14 10:56:39.591 [INFO]  AppBaseModuleImpl - [1] ExternalPath: /storage/emulated/0/Android/data/com.honeywell.GWSApp/files, InternalPath: /data/user/0/com.honeywell.GWSApp/files, ImagePath: /data/user/0/com.honeywell.GWSApp/files/Images, PhotoPath: /storage/emulated/0/Android/data/com.honeywell.GWSApp/files/Pictures, AudioCapturePath: /storage/emulated/0/Android/data/com.honeywell.GWSApp/files/Audio, AsrModelPath: /storage/emulated/0/Android/data/com.honeywell.GWSApp/files/AsrModels, ConfigurationPath: /storage/emulated/0/Download, ConfigurationPaths: /storage/emulated/0/Download, /storage/emulated/0/Download/com.honeywell.GWSApp, /storage/emulated/0/Android/data/com.honeywell.GWSApp/files/Configuration
+2023-12-14 10:56:39.593 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing GuidedWork.Devices.Droid.AndroidModule
+2023-12-14 10:56:39.631 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing Honeywell.Firebird.Module.Scanner.Paris.Android.ParisScannerServiceModule
+2023-12-14 10:56:39.634 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing Honeywell.Firebird.Module.BluetoothScanner.Android.AndroidBluetoothScannerServiceModule
+2023-12-14 10:56:39.634 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing Honeywell.Firebird.Module.XamarinForms.XamarinFormsModuleCommon
+2023-12-14 10:56:39.634 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing GuidedWork.GuidedWorkModuleXF
+2023-12-14 10:56:39.635 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing Honeywell.GuidedWork.Communication.CommunicationModule
+2023-12-14 10:56:39.635 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing RESTCommunication.RESTCommunicationModule
+2023-12-14 10:56:39.635 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing Honeywell.Firebird.Module.WorkflowEngine.WorkflowEngineModule
+2023-12-14 10:56:39.635 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing Honeywell.Firebird.Module.Core.CoreModule
+2023-12-14 10:56:39.657 [INFO]  ThreadPoolConfigurationService - [1] Changed min threads for [Workers: 8 to 20] and [Completions: 8 to 20]
+2023-12-14 10:56:39.657 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing Honeywell.GuidedWork.EnterpriseVoice.EnterpriseVoiceModule
+2023-12-14 10:56:39.657 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing Honeywell.GuidedWork.Core.GuidedWorkCoreModule
+2023-12-14 10:56:39.667 [INFO]  GuidedWorkCoreModule - [1] App: Version '3.3.0', Build Date '', Build Configuration '', Branch '', User Name ''
+2023-12-14 10:56:39.668 [INFO]  GuidedWorkCoreModule - [1] Sdk: Version '1.11.2.0-b9', Build Date '2023-08-10 21:40', Build Configuration 'Release', Branch 'HEAD (baa87d0f+)', User Name 'jenkins@winbuild1-gws'
+2023-12-14 10:56:39.678 [INFO]  GuidedWorkCoreModule - [1] AssemblyInfo Acr.UserDialogs 7.1.0.454
+AndHUD 1.4.2.0
+Anonymously Hosted DynamicMethods Assembly 0.0.0.0
+Azure.Core 1.35.0.0
+Azure.Core.Amqp 1.3.0.0
+Azure.Messaging.EventHubs 5.9.3.0
+Bootstrap 3.2.0.0
+BouncyCastle.Crypto 1.8.4.0
+Common.Logging 3.4.1.0
+Common.Logging.Core 3.4.1.0
+DLToolkit.Forms.Controls.FlowListView 1.0.0.0
+FormsViewGroup 2.0.0.0
+Google.Protobuf 3.19.4.0
+Grpc.Core.Api 2.0.0.0
+Grpc.Net.Client 2.0.0.0
+Grpc.Net.Common 2.0.0.0
+GuidedWork 1.11.2.0
+GuidedWork.Devices.Droid 1.11.2.0
+GuidedWorkAddOns 0.0.0.0
+GuidedWorkRunnerModule 1.11.2.0
+Honeywell.Firebird.Module.Core.BlueStreak.Droid 1.11.2.0
+Honeywell.GuidedWork.AppBase 1.11.2.0
+Honeywell.GuidedWork.AppBase.Abstractions 1.11.2.0
+Honeywell.GuidedWork.AsrEngine.Android 1.1.7.0
+Honeywell.GuidedWork.Base 1.11.2.0
+Honeywell.GuidedWork.Bsx2Models.bg-BG 1.1.0.0
+Honeywell.GuidedWork.Bsx2Models.cs-CZ 1.1.0.0
+Honeywell.GuidedWork.Bsx2Models.da-DK 1.1.0.0
+Honeywell.GuidedWork.Bsx2Models.de-DE 1.1.0.0
+Honeywell.GuidedWork.Bsx2Models.el-GR 1.1.0.0
+Honeywell.GuidedWork.Bsx2Models.en-US 1.1.0.0
+Honeywell.GuidedWork.Bsx2Models.es-ES 1.1.0.0
+Honeywell.GuidedWork.Bsx2Models.fi-FI 1.1.0.0
+Honeywell.GuidedWork.Bsx2Models.fr-FR 1.1.0.0
+Honeywell.GuidedWork.Bsx2Models.he-IL 1.1.0.0
+Honeywell.GuidedWork.Bsx2Models.it-IT 1.1.0.0
+Honeywell.GuidedWork.Bsx2Models.nl-NL 1.1.0.0
+Honeywell.GuidedWork.Bsx2Models.nn-NO 1.1.0.0
+Honeywell.GuidedWork.Bsx2Models.pl-PL 1.1.0.0
+Honeywell.GuidedWork.Bsx2Models.pt-PT 1.1.0.0
+Honeywell.GuidedWork.Bsx2Models.ru-RU 1.1.0.0
+Honeywell.GuidedWork.Bsx2Models.sv-SE 1.1.0.0
+Honeywell.GuidedWork.Communication 1.11.2.0
+Honeywell.GuidedWork.Core 1.11.2.0
+Honeywell.GuidedWork.DataCollection 1.0.2.0
+Honeywell.GuidedWork.Devices.Scan.Droid 1.0.0.0
+Honeywell.GuidedWork.Devices.XF.Droid 1.0.0.0
+Honeywell.GuidedWork.EmbeddedTtsA.Droid 1.11.2.0
+Honeywell.GuidedWork.EmbeddedTtsA.Engine.Droid 1.0.1.0
+Honeywell.GuidedWork.EnterpriseVoice 1.11.2.0
+Honeywell.GuidedWork.GuidedWorkRunnerModule.Scan 1.0.0.0
+Honeywell.GuidedWork.GuidedWorkRunnerModule.XF 1.11.2.0
+Honeywell.GuidedWork.Scan 1.0.0.0
+Honeywell.GuidedWork.TsiModels.de-DE 1.0.0.0
+Honeywell.GuidedWork.TsiModels.en-US 1.0.0.0
+Honeywell.GuidedWork.TsiModels.es-MX 1.0.0.0
+Honeywell.GuidedWork.TsiModels.fr-CA 1.0.0.0
+Honeywell.GuidedWork.XF 1.11.2.0
+Honeywell.GWS.Connector.Insights 1.0.0.0
+Honeywell.GWS.Connector.SDK 2.2.0.0
+Honeywell.OpenTelemetry.Exporter 26.0.0.0
+Honeywell.VIO.SDK 1.0.0.0
+Java.Interop 0.1.0.0
+LiquidState 1.0.0.0
+LiteDB 5.0.17.0
+Microsoft.Azure.Amqp 2.4.0.0
+Microsoft.Bcl.AsyncInterfaces 1.0.0.0
+Microsoft.Extensions.Configuration 3.1.0.0
+Microsoft.Extensions.Configuration.Abstractions 3.1.0.0
+Microsoft.Extensions.Configuration.Binder 3.1.0.0
+Microsoft.Extensions.DependencyInjection 3.1.0.0
+Microsoft.Extensions.DependencyInjection.Abstractions 3.1.0.0
+Microsoft.Extensions.Logging 3.1.0.0
+Microsoft.Extensions.Logging.Abstractions 3.1.0.0
+Microsoft.Extensions.Logging.Configuration 3.1.0.0
+Microsoft.Extensions.Options 3.1.0.0
+Microsoft.Extensions.Options.ConfigurationExtensions 3.1.0.0
+Microsoft.Extensions.Primitives 3.1.0.0
+Mono.Android 0.0.0.0
+Mono.Security 2.0.5.0
+mscorlib 2.0.5.0
+netstandard 2.1.0.0
+Newtonsoft.Json 13.0.0.0
+OpenTelemetry 1.0.0.0
+OpenTelemetry.Api 1.0.0.0
+OpenTelemetry.Api.ProviderBuilderExtensions 1.0.0.0
+OpenTelemetry.Exporter.Console 1.0.0.0
+OpenTelemetry.Exporter.OpenTelemetryProtocol 1.0.0.0
+Plugin.CurrentActivity 1.0.0.0
+Plugin.Media 1.0.0.0
+Plugin.Permissions 1.0.0.0
+Plugin.SimpleAudioPlayer 1.0.0.0
+Plugin.SimpleAudioPlayer.Abstractions 1.0.0.0
+RESTCommunication 1.11.2.0
+RootBeer 1.0.0.0
+SQLite-net 1.8.116.0
+SQLitePCLRaw.batteries_v2 2.1.2.1721
+SQLitePCLRaw.core 2.1.2.1721
+SQLitePCLRaw.lib.e_sqlcipher.android 2.1.2.1721
+SQLitePCLRaw.provider.e_sqlcipher 2.1.2.1721
+Symbol.XamarinEMDK 6.0.0.58
+System 2.0.5.0
+System.Collections.Immutable 1.2.3.0
+System.Core 2.0.5.0
+System.Data 2.0.5.0
+System.Diagnostics.DiagnosticSource 7.0.0.0
+System.Memory.Data 1.0.2.0
+System.Net.Http 4.0.0.0
+System.Numerics 2.0.5.0
+System.Runtime.Serialization 2.0.5.0
+System.Text.Encodings.Web 4.0.5.1
+System.Text.Json 4.0.1.2
+System.Threading.Channels 4.0.2.0
+System.Xml 2.0.5.0
+TCPSocketCommunication 1.11.2.0
+VIO 3.2.0.0
+VIO.Android 3.2.0.0
+VIOModule 1.0.0.0
+VoiceConsoleComm 1.11.2.0
+Xamarin.AndroidX.Activity 1.0.0.0
+Xamarin.AndroidX.AppCompat 1.0.0.0
+Xamarin.AndroidX.AppCompat.AppCompatResources 1.0.0.0
+Xamarin.AndroidX.Browser 1.0.0.0
+Xamarin.AndroidX.CardView 1.0.0.0
+Xamarin.AndroidX.CoordinatorLayout 1.0.0.0
+Xamarin.AndroidX.Core 1.0.0.0
+Xamarin.AndroidX.CustomView 1.0.0.0
+Xamarin.AndroidX.DrawerLayout 1.0.0.0
+Xamarin.AndroidX.Fragment 1.0.0.0
+Xamarin.AndroidX.Legacy.Support.Core.UI 1.0.0.0
+Xamarin.AndroidX.Lifecycle.Common 1.0.0.0
+Xamarin.AndroidX.Lifecycle.LiveData.Core 1.0.0.0
+Xamarin.AndroidX.Lifecycle.ViewModel 1.0.0.0
+Xamarin.AndroidX.Loader 1.0.0.0
+Xamarin.AndroidX.Media 1.0.0.0
+Xamarin.AndroidX.Preference 1.0.0.0
+Xamarin.AndroidX.RecyclerView 1.0.0.0
+Xamarin.AndroidX.SavedState 1.0.0.0
+Xamarin.AndroidX.SwipeRefreshLayout 1.0.0.0
+Xamarin.AndroidX.VersionedParcelable 1.0.0.0
+Xamarin.AndroidX.ViewPager 1.0.0.0
+Xamarin.Essentials 1.0.0.0
+Xamarin.Forms.Core 2.0.0.0
+Xamarin.Forms.Platform 2.0.0.0
+Xamarin.Forms.Platform.Android 2.0.0.0
+Xamarin.Forms.Xaml 2.0.0.0
+Xamarin.Google.Android.Material 1.0.0.0
+Xamarin.Google.Guava.ListenableFuture 1.0.0.0
+2023-12-14 10:56:39.678 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing Honeywell.GuidedWork.Base.GuidedWorkBaseModule
+2023-12-14 10:56:39.679 [INFO]  GuidedWorkBaseModule - [1] Terminal SN = c8858f8a6cefaeaf
+2023-12-14 10:56:39.680 [INFO]  GuidedWorkBaseModule - [1] Code Version = GNL_X
+2023-12-14 10:56:39.680 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing Honeywell.GuidedWork.Base.VoiceConsoleCommModule
+2023-12-14 10:56:39.686 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing GuidedWork.GuidedWorkModuleImpl
+2023-12-14 10:56:39.686 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing Honeywell.GuidedWork.Core.MobileOnlyModule
+2023-12-14 10:56:39.686 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing GuidedWorkRunner.GuidedWorkRunnerModuleXF
+2023-12-14 10:56:39.686 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing GuidedWork.GuidedWorkModuleScan
+2023-12-14 10:56:39.686 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing GuidedWorkRunner.GuidedWorkRunnerModuleScan
+2023-12-14 10:56:39.686 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing Honeywell.Firebird.Module.XamarinForms.Droid.XamarinFormsModuleAndroid
+2023-12-14 10:56:39.686 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing Honeywell.GuidedWork.EmbeddedTtsA.TTSModule
+2023-12-14 10:56:39.686 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing Honeywell.Firebird.Module.Core.BlueStreak.BlueStreakModule
+2023-12-14 10:56:39.696 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing TCPSocketCommunication.TCPSocketCommunicationModule
+2023-12-14 10:56:39.696 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing GuidedWorkRunner.GuidedWorkRunnerModule
+2023-12-14 10:56:39.696 [INFO]  ModuleManager - [1] LoadModulesAsync: initializing VIO.VIOModule
+2023-12-14 10:56:39.697 [INFO]  ModuleManager - [1] LoadModulesAsync: running Honeywell.GuidedWork.AppBase.AppBaseModuleImpl
+2023-12-14 10:56:39.699 [INFO]  ModuleManager - [1] LoadModulesAsync: running GuidedWork.Devices.Droid.AndroidModule
+2023-12-14 10:56:39.699 [INFO]  ModuleManager - [1] LoadModulesAsync: running Honeywell.Firebird.Module.Scanner.Paris.Android.ParisScannerServiceModule
+2023-12-14 10:56:39.699 [INFO]  ModuleManager - [1] LoadModulesAsync: running Honeywell.Firebird.Module.BluetoothScanner.Android.AndroidBluetoothScannerServiceModule
+2023-12-14 10:56:39.699 [INFO]  ModuleManager - [1] LoadModulesAsync: running Honeywell.Firebird.Module.XamarinForms.XamarinFormsModuleCommon
+2023-12-14 10:56:39.759 [INFO]  ModuleManager - [1] LoadModulesAsync: running GuidedWork.GuidedWorkModuleXF
+2023-12-14 10:56:39.760 [INFO]  ModuleManager - [1] LoadModulesAsync: running Honeywell.GuidedWork.Communication.CommunicationModule
+2023-12-14 10:56:39.760 [INFO]  ModuleManager - [1] LoadModulesAsync: running RESTCommunication.RESTCommunicationModule
+2023-12-14 10:56:39.760 [INFO]  ModuleManager - [1] LoadModulesAsync: running Honeywell.Firebird.Module.WorkflowEngine.WorkflowEngineModule
+2023-12-14 10:56:39.760 [INFO]  ModuleManager - [1] LoadModulesAsync: running Honeywell.Firebird.Module.Core.CoreModule
+2023-12-14 10:56:39.760 [INFO]  ModuleManager - [1] LoadModulesAsync: running Honeywell.GuidedWork.EnterpriseVoice.EnterpriseVoiceModule
+2023-12-14 10:56:39.760 [INFO]  ModuleManager - [1] LoadModulesAsync: running Honeywell.GuidedWork.Core.GuidedWorkCoreModule
+2023-12-14 10:56:39.760 [INFO]  ModuleManager - [1] LoadModulesAsync: running Honeywell.GuidedWork.Base.GuidedWorkBaseModule
+2023-12-14 10:56:39.760 [INFO]  ModuleManager - [1] LoadModulesAsync: running Honeywell.GuidedWork.Base.VoiceConsoleCommModule
+2023-12-14 10:56:39.760 [INFO]  ModuleManager - [1] LoadModulesAsync: running GuidedWork.GuidedWorkModuleImpl
+2023-12-14 10:56:39.760 [INFO]  ModuleManager - [1] LoadModulesAsync: running Honeywell.GuidedWork.Core.MobileOnlyModule
+2023-12-14 10:56:39.761 [INFO]  ModuleManager - [1] LoadModulesAsync: running GuidedWorkRunner.GuidedWorkRunnerModuleXF
+2023-12-14 10:56:39.761 [INFO]  ModuleManager - [1] LoadModulesAsync: running GuidedWork.GuidedWorkModuleScan
+2023-12-14 10:56:39.761 [INFO]  ModuleManager - [1] LoadModulesAsync: running GuidedWorkRunner.GuidedWorkRunnerModuleScan
+2023-12-14 10:56:39.761 [INFO]  ModuleManager - [1] LoadModulesAsync: running Honeywell.Firebird.Module.XamarinForms.Droid.XamarinFormsModuleAndroid
+2023-12-14 10:56:39.761 [INFO]  ModuleManager - [1] LoadModulesAsync: running Honeywell.GuidedWork.EmbeddedTtsA.TTSModule
+2023-12-14 10:56:39.761 [INFO]  ModuleManager - [1] LoadModulesAsync: running Honeywell.Firebird.Module.Core.BlueStreak.BlueStreakModule
+2023-12-14 10:56:39.761 [INFO]  ModuleManager - [1] LoadModulesAsync: running TCPSocketCommunication.TCPSocketCommunicationModule
+2023-12-14 10:56:39.761 [INFO]  ModuleManager - [1] LoadModulesAsync: running GuidedWorkRunner.GuidedWorkRunnerModule
+2023-12-14 10:56:39.761 [INFO]  ModuleManager - [1] LoadModulesAsync: running VIO.VIOModule
+2023-12-14 10:56:39.763 [INFO]  ModuleManager - [1] LoadModulesAsync: waiting for modules to start background services
+2023-12-14 10:56:40.401 [INFO]  AndroidResourceMonitor - [1] New Folder: /data/user/0/com.honeywell.GWSApp/files                                                              Initial Size:           20480 Initial file count:          1
+2023-12-14 10:56:40.401 [INFO]  AndroidResourceMonitor - [1] New Folder: /data/user/0/com.honeywell.GWSApp/files/.config                                                      Initial Size:               0 Initial file count:          0
+2023-12-14 10:56:40.401 [INFO]  AndroidResourceMonitor - [1] New Folder: /data/user/0/com.honeywell.GWSApp/files/.local                                                       Initial Size:               0 Initial file count:          0
+2023-12-14 10:56:40.401 [INFO]  AndroidResourceMonitor - [1] New Folder: /data/user/0/com.honeywell.GWSApp/files/.local/share                                                 Initial Size:               0 Initial file count:          0
+2023-12-14 10:56:40.403 [INFO]  AndroidResourceMonitor - [1] New Folder: /storage/emulated/0/Android/data/com.honeywell.GWSApp/files                                          Initial Size:               0 Initial file count:          0
+2023-12-14 10:56:40.403 [INFO]  AndroidResourceMonitor - [1] New Folder: /storage/emulated/0/Android/data/com.honeywell.GWSApp/files/Log                                      Initial Size:           42834 Initial file count:          1
+2023-12-14 10:56:40.404 [INFO]  AndroidResourceMonitor - [1] New Folder: /storage/emulated/0/Android/data/com.honeywell.GWSApp/files/Configuration                            Initial Size:               0 Initial file count:          0
+2023-12-14 10:56:40.416 [INFO]  MainActivity - [4] Running Garbage Collection
+2023-12-14 10:56:40.676 [INFO]  FormsApp - [1] OnStart
+2023-12-14 10:56:40.679 [WARN]  ParisScannerServiceModule - [1] Could not send the Scanner Properties Changed message -- either the reader wasn't available or onboard scanning is not supported on this device
+2023-12-14 10:56:40.682 [INFO]  MainActivity - [1] MainActivity.OnResume
+2023-12-14 10:56:40.820 [INFO]  AndroidAudioDiagnosticLogger - [1] Sco audio state changed to Disconnected
+2023-12-14 10:56:40.863 [INFO]  BackServiceNavigationPage - [1] OnAppearing
+2023-12-14 10:56:40.867 [INFO]  ModuleManager - [1] LoadModulesAsync: all modules started background services
+2023-12-14 10:56:40.867 [INFO]  ModuleManager - [1] LoadModulesAsync: starting Honeywell.GuidedWork.AppBase.AppBaseModuleImpl main
+2023-12-14 10:56:40.870 [INFO]  ModuleManager - [1] LoadModulesAsync: starting GuidedWork.Devices.Droid.AndroidModule main
+2023-12-14 10:56:40.870 [INFO]  ModuleManager - [1] LoadModulesAsync: starting Honeywell.Firebird.Module.Scanner.Paris.Android.ParisScannerServiceModule main
+2023-12-14 10:56:40.870 [INFO]  ModuleManager - [1] LoadModulesAsync: starting Honeywell.Firebird.Module.BluetoothScanner.Android.AndroidBluetoothScannerServiceModule main
+2023-12-14 10:56:40.871 [INFO]  ModuleManager - [1] LoadModulesAsync: starting Honeywell.Firebird.Module.XamarinForms.XamarinFormsModuleCommon main
+2023-12-14 10:56:40.871 [INFO]  ModuleManager - [1] LoadModulesAsync: starting GuidedWork.GuidedWorkModuleXF main
+2023-12-14 10:56:40.871 [INFO]  ModuleManager - [1] LoadModulesAsync: starting Honeywell.GuidedWork.Communication.CommunicationModule main
+2023-12-14 10:56:40.871 [INFO]  ModuleManager - [1] LoadModulesAsync: starting RESTCommunication.RESTCommunicationModule main
+2023-12-14 10:56:40.871 [INFO]  ModuleManager - [1] LoadModulesAsync: starting Honeywell.Firebird.Module.WorkflowEngine.WorkflowEngineModule main
+2023-12-14 10:56:40.895 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] Start - begin
+2023-12-14 10:56:40.896 [INFO]  [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] WorkflowActivityStack: 0 activities
+2023-12-14 10:56:40.957 [INFO]  RESTQueue - [1] Opening REST queue file: /data/user/0/com.honeywell.GWSApp/files/voiceconsole_http_queue.bin
+2023-12-14 10:56:40.958 [INFO]  RESTQueue - [1] File /data/user/0/com.honeywell.GWSApp/files/voiceconsole_http_queue.bin not found.
+2023-12-14 10:56:41.012 [INFO]  RESTQueue - [1] Opening REST queue file: /data/user/0/com.honeywell.GWSApp/files/sentience_iam_http_queue.bin
+2023-12-14 10:56:41.012 [INFO]  RESTQueue - [1] File /data/user/0/com.honeywell.GWSApp/files/sentience_iam_http_queue.bin not found.
+2023-12-14 10:56:41.060 [TRACE] [WfaLH: Name=StartupWorkflowActivity, Id=4] - [1] Start PushNavigation
+2023-12-14 10:56:41.075 [TRACE] [[WfaLH: Name=StartupWorkflowActivity, Id=4] [WorkflowController: Type=GuidedWorkStartupController, Id=5]] - [1] StartInternalAsync(PushNavigation)
+2023-12-14 10:56:41.083 [INFO]  XamarinPageViewAdapter - [1] StartViewAsync [XamarinPageView: Type=PlaceholderPageView, ViewId=2]
+2023-12-14 10:56:41.084 [INFO]  XamarinPageViewAdapter - [1] StartViewAsync [XamarinPageView: Type=PlaceholderPageView, ViewId=2] leaving at top
+2023-12-14 10:56:41.085 [INFO]  DialogueViewAdapter - [1] StartViewAsync 
+2023-12-14 10:56:41.086 [INFO]  DialogueViewAdapter - [1]  Enabled = false
+2023-12-14 10:56:41.128 [INFO]  IInfoLogger - [1] CultureInfo InstalledUICulture: en-US
+2023-12-14 10:56:41.153 [TRACE] [WfaLH: Name=StartupWorkflowActivity, Id=4] - [1] PublishEvent [WfaEvent: Name=RequestPermissions, SourceWfa=[WfaLH: Name=StartupWorkflowActivity, Id=4]] - begin
+2023-12-14 10:56:41.169 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PublishEvent: calling [WfaC : Name=BaseWorkflowActivity, Id=3] handler: calling base handler
+2023-12-14 10:56:41.169 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PublishEvent [WfaEvent: Name=RequestPermissions, SourceWfa=[WfaLH: Name=StartupWorkflowActivity, Id=4]] - begin
+2023-12-14 10:56:41.175 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PublishEvent: enqueue [PushReplaceTransitionEventHandler: Destination=RequestPermissionsWorkflowActivity]
+2023-12-14 10:56:41.180 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PushReplace: RequestPermissionsWorkflowActivity - begin
+2023-12-14 10:56:41.180 [INFO]  [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] WorkflowActivityStack: {0: [WfaLH: Name=StartupWorkflowActivity, Id=4]}
+2023-12-14 10:56:41.240 [INFO]  RESTQueue - [1] Opening REST queue file: /data/user/0/com.honeywell.GWSApp/files/http_queue.bin
+2023-12-14 10:56:41.240 [INFO]  RESTQueue - [1] File /data/user/0/com.honeywell.GWSApp/files/http_queue.bin not found.
+2023-12-14 10:56:41.383 [INFO]  ApplicationSettings - [1] ApplicationSettings Loaded As: {"DisabledVocabWords_ByWorkflow":{},"FileVersionNumber":null,"LegacyFormattedRecognizerSettings":{},"BlueStreak_Decode_Sensitivity":{},"PnG_Decode_Sensitivity":{},"DisableAllAlphas_ByWorkflow":[],"DisableAllAlphas":false,"DisabledVocabWords":[],"PhoneticDefinitions":{},"SpeechOutSpeechInDelay":200,"Synonyms":null}
+2023-12-14 10:56:41.399 [TRACE] [WfaLH: Name=StartupWorkflowActivity, Id=4] - [1] Pause
+2023-12-14 10:56:41.408 [TRACE] [[WfaLH: Name=StartupWorkflowActivity, Id=4] [WorkflowController: Type=GuidedWorkStartupController, Id=5]] - [1] PauseInternalAsync()
+2023-12-14 10:56:41.410 [TRACE] ScannerViewAdapter - [1] StopViewAsync - view reference is not active
+2023-12-14 10:56:41.412 [TRACE] BluetoothScannerViewAdapter - [1] StopViewAsync - view reference is not active
+2023-12-14 10:56:41.414 [INFO]  XamarinPageViewAdapter - [1] PauseViewAsync [XamarinPageView: Type=PlaceholderPageView, ViewId=2]
+2023-12-14 10:56:41.414 [INFO]  DialogueViewAdapter - [1] PauseViewAsync 
+2023-12-14 10:56:41.419 [TRACE] [WfaLH: Name=StartupWorkflowActivity, Id=4] - [1] Stop
+2023-12-14 10:56:41.427 [TRACE] [[WfaLH: Name=StartupWorkflowActivity, Id=4] [WorkflowController: Type=GuidedWorkStartupController, Id=5]] - [1] StopInternalAsync()
+2023-12-14 10:56:41.427 [TRACE] ScannerViewAdapter - [1] StopViewAsync - view reference is not active
+2023-12-14 10:56:41.427 [TRACE] BluetoothScannerViewAdapter - [1] StopViewAsync - view reference is not active
+2023-12-14 10:56:41.428 [INFO]  XamarinPageViewAdapter - [1] StopViewAsync [XamarinPageView: Type=PlaceholderPageView, ViewId=2]
+2023-12-14 10:56:41.429 [INFO]  DialogueViewAdapter - [1] StopViewAsync 
+2023-12-14 10:56:41.431 [TRACE] [WfaLU: Name=RequestPermissionsWorkflowActivity, Id=6] - [1] Start PushReplaceNavigation
+2023-12-14 10:56:41.504 [TRACE] [[WfaLU: Name=RequestPermissionsWorkflowActivity, Id=6] [WorkflowViewController: Type=RequestPermissionsController, Id=7]] - [1] starting [Honeywell.Firebird.CoreLibrary.RequestPermissionsView] with Honeywell.Firebird.CoreLibrary.RequestPermissionsViewModel
+2023-12-14 10:56:41.507 [INFO]  XamarinPageViewAdapter - [1] creating view of type Honeywell.Firebird.CoreLibrary.RequestPermissionsView with view model [WorkflowViewModel: Type=RequestPermissionsViewModel, Id=8])
+2023-12-14 10:56:41.608 [INFO]  XamarinPageViewAdapter - [1] StartViewAsync [XamarinPageView: Type=RequestPermissionsView, ViewId=9]
+2023-12-14 10:56:41.608 [INFO]  XamarinPageViewAdapter - [1] StartViewAsync [XamarinPageView: Type=RequestPermissionsView, ViewId=9] replacing [XamarinPageView: Type=PlaceholderPageView, ViewId=2]
+2023-12-14 10:56:41.622 [INFO]  DialogueViewAdapter - [1] StartViewAsync 
+2023-12-14 10:56:41.622 [INFO]  DialogueViewAdapter - [1]  Enabled = false
+2023-12-14 10:56:41.721 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PushReplace: RequestPermissionsWorkflowActivity - end
+2023-12-14 10:56:41.721 [INFO]  [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] WorkflowActivityStack: {0: [WfaLU: Name=RequestPermissionsWorkflowActivity, Id=6]}
+2023-12-14 10:56:41.748 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] Start - end
+2023-12-14 10:56:41.748 [INFO]  [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] WorkflowActivityStack: {0: [WfaLU: Name=RequestPermissionsWorkflowActivity, Id=6]}
+2023-12-14 10:56:41.748 [INFO]  ModuleManager - [1] LoadModulesAsync: starting Honeywell.Firebird.Module.Core.CoreModule main
+2023-12-14 10:56:41.748 [INFO]  ModuleManager - [1] LoadModulesAsync: starting Honeywell.GuidedWork.EnterpriseVoice.EnterpriseVoiceModule main
+2023-12-14 10:56:41.748 [INFO]  ModuleManager - [1] LoadModulesAsync: starting Honeywell.GuidedWork.Core.GuidedWorkCoreModule main
+2023-12-14 10:56:41.748 [INFO]  ModuleManager - [1] LoadModulesAsync: starting Honeywell.GuidedWork.Base.GuidedWorkBaseModule main
+2023-12-14 10:56:41.748 [INFO]  ModuleManager - [1] LoadModulesAsync: starting Honeywell.GuidedWork.Base.VoiceConsoleCommModule main
+2023-12-14 10:56:41.748 [INFO]  ModuleManager - [1] LoadModulesAsync: starting GuidedWork.GuidedWorkModuleImpl main
+2023-12-14 10:56:41.749 [INFO]  ModuleManager - [1] LoadModulesAsync: starting Honeywell.GuidedWork.Core.MobileOnlyModule main
+2023-12-14 10:56:41.749 [INFO]  ModuleManager - [1] LoadModulesAsync: starting GuidedWorkRunner.GuidedWorkRunnerModuleXF main
+2023-12-14 10:56:41.749 [INFO]  ModuleManager - [1] LoadModulesAsync: starting GuidedWork.GuidedWorkModuleScan main
+2023-12-14 10:56:41.749 [INFO]  ModuleManager - [1] LoadModulesAsync: starting GuidedWorkRunner.GuidedWorkRunnerModuleScan main
+2023-12-14 10:56:41.749 [INFO]  ModuleManager - [1] LoadModulesAsync: starting Honeywell.Firebird.Module.XamarinForms.Droid.XamarinFormsModuleAndroid main
+2023-12-14 10:56:41.749 [INFO]  ModuleManager - [1] LoadModulesAsync: starting Honeywell.GuidedWork.EmbeddedTtsA.TTSModule main
+2023-12-14 10:56:41.749 [INFO]  ModuleManager - [1] LoadModulesAsync: starting Honeywell.Firebird.Module.Core.BlueStreak.BlueStreakModule main
+2023-12-14 10:56:41.749 [INFO]  ModuleManager - [1] LoadModulesAsync: starting TCPSocketCommunication.TCPSocketCommunicationModule main
+2023-12-14 10:56:41.749 [INFO]  ModuleManager - [1] LoadModulesAsync: starting GuidedWorkRunner.GuidedWorkRunnerModule main
+2023-12-14 10:56:41.749 [INFO]  ModuleManager - [1] LoadModulesAsync: starting VIO.VIOModule main
+2023-12-14 10:56:41.750 [INFO]  ModuleManager - [1] LoadModulesAsync: waiting for modules to start main
+2023-12-14 10:56:41.750 [INFO]  ModuleManager - [1] LoadModulesAsync: all modules started main
+2023-12-14 10:56:41.751 [INFO]  XamarinFormsModuleCommon - [1] [XamarinPageView: Type=PlaceholderPageView, ViewId=2] OnAppearing
+2023-12-14 10:56:42.308 [INFO]  AndroidNetworkConnectivity - [1] OnReceive: active network state: CONNECTED
+2023-12-14 10:56:42.314 [INFO]  MainActivity - [1] MainActivity.OnPause - IsFinishing=False
+2023-12-14 10:56:42.433 [INFO]  [[WfaLU: Name=RequestPermissionsWorkflowActivity, Id=6] [WorkflowViewController: Type=RequestPermissionsController, Id=7]] - [1] [XamarinPageView: Type=RequestPermissionsView, ViewId=9] OnAppearing
+2023-12-14 10:56:45.959 [TRACE] [[WfaLU: Name=RequestPermissionsWorkflowActivity, Id=6] [WorkflowViewController: Type=RequestPermissionsController, Id=7]] - [4] Signaling preconditions to recognizer service
+2023-12-14 10:56:45.960 [TRACE] [WfaLU: Name=RequestPermissionsWorkflowActivity, Id=6] - [1] PublishEvent [WfaEvent: Name=Ready, SourceWfa=[WfaLU: Name=RequestPermissionsWorkflowActivity, Id=6]] - begin
+2023-12-14 10:56:45.960 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PublishEvent: calling [WfaC : Name=BaseWorkflowActivity, Id=3] handler: calling base handler
+2023-12-14 10:56:45.960 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PublishEvent [WfaEvent: Name=Ready, SourceWfa=[WfaLU: Name=RequestPermissionsWorkflowActivity, Id=6]] - begin
+2023-12-14 10:56:45.960 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PublishEvent: enqueue [PushReplaceTransitionEventHandler: Destination=HomeWorkflowActivity]
+2023-12-14 10:56:45.961 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PushReplace: HomeWorkflowActivity - begin
+2023-12-14 10:56:45.961 [INFO]  [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] WorkflowActivityStack: {0: [WfaLU: Name=RequestPermissionsWorkflowActivity, Id=6]}
+2023-12-14 10:56:46.010 [INFO]  WorkflowConfigurations - [1] Found workflow configuration file VIO.Resources.VIO_configuration.json
+2023-12-14 10:56:46.239 [TRACE] [WfaLU: Name=RequestPermissionsWorkflowActivity, Id=6] - [1] Pause
+2023-12-14 10:56:46.244 [TRACE] [[WfaLU: Name=RequestPermissionsWorkflowActivity, Id=6] [WorkflowViewController: Type=RequestPermissionsController, Id=7]] - [1] pausing [Honeywell.Firebird.CoreLibrary.RequestPermissionsView] with Honeywell.Firebird.CoreLibrary.RequestPermissionsViewModel
+2023-12-14 10:56:46.245 [INFO]  XamarinPageViewAdapter - [1] PauseViewAsync [XamarinPageView: Type=RequestPermissionsView, ViewId=9]
+2023-12-14 10:56:46.249 [TRACE] [WfaLU: Name=RequestPermissionsWorkflowActivity, Id=6] - [1] Stop
+2023-12-14 10:56:46.259 [TRACE] [[WfaLU: Name=RequestPermissionsWorkflowActivity, Id=6] [WorkflowViewController: Type=RequestPermissionsController, Id=7]] - [1] stopping [Honeywell.Firebird.CoreLibrary.RequestPermissionsView] with Honeywell.Firebird.CoreLibrary.RequestPermissionsViewModel
+2023-12-14 10:56:46.259 [INFO]  XamarinPageViewAdapter - [1] StopViewAsync [XamarinPageView: Type=RequestPermissionsView, ViewId=9]
+2023-12-14 10:56:46.262 [TRACE] [WfaLU: Name=HomeWorkflowActivity, Id=11] - [1] Start PushReplaceNavigation
+2023-12-14 10:56:46.376 [INFO]  AppWfaRegistrant - [1] Found settings wfa: VIO_settings_wfa.json
+2023-12-14 10:56:46.401 [TRACE] [[WfaLU: Name=HomeWorkflowActivity, Id=11] [WorkflowViewController: Type=GuidedWorkHomeController, Id=12]] - [1] starting [GuidedWork.GuidedWorkHomeView] with GuidedWork.GuidedWorkHomeViewModel
+2023-12-14 10:56:46.401 [INFO]  XamarinPageViewAdapter - [1] creating view of type GuidedWork.GuidedWorkHomeView with view model [WorkflowViewModel: Type=GuidedWorkHomeViewModel, Id=13])
+2023-12-14 10:56:46.473 [INFO]  XamarinPageViewAdapter - [1] StartViewAsync [XamarinPageView: Type=GuidedWorkHomeView, ViewId=14]
+2023-12-14 10:56:46.485 [INFO]  [[WfaLU: Name=RequestPermissionsWorkflowActivity, Id=6] [WorkflowViewController: Type=RequestPermissionsController, Id=7]] - [1] [XamarinPageView: Type=RequestPermissionsView, ViewId=9] OnDisappearing
+2023-12-14 10:56:46.494 [INFO]  DialogueViewAdapter - [1] StartViewAsync 
+2023-12-14 10:56:46.494 [INFO]  DialogueViewAdapter - [1]  Enabled = false
+2023-12-14 10:56:46.510 [INFO]  MainActivity - [1] MainActivity.OnResume
+2023-12-14 10:56:46.567 [INFO]  [[WfaLU: Name=HomeWorkflowActivity, Id=11] [WorkflowViewController: Type=GuidedWorkHomeController, Id=12]] - [1] [XamarinPageView: Type=GuidedWorkHomeView, ViewId=14] OnAppearing
+2023-12-14 10:56:46.636 [INFO]  XamarinPageViewAdapter - [1] XF-nav: {0: [XamarinPageView: Type=GuidedWorkHomeView, ViewId=14]}
+2023-12-14 10:56:46.814 [INFO]  NaturalNumberService - [1] NaturalNumbers Internal File Loaded As: {"de":{"VocabToValueMapping":{"und":0,"ein":1,"zehn":10,"elf":11,"zwölf":12,"dreizehn":13,"vierzehn":14,"fünfzehn":15,"sechzehn":16,"siebzehn":17,"achtzehn":18,"neunzehn":19,"zwanzig":20,"dreißig":30,"vierzig":40,"fünfzig":50,"sechzig":60,"siebzig":70,"achtzig":80,"neunzig":90,"hundert":100,"0":0,"1":1,"2":2,"3":3,"4":4,"5":5,"6":6,"7":7,"8":8,"9":9},"Nodes":[{"Name":"","VocabLinks":[{"DestinationNodeName":"Digit1A","Vocabulary":["0"],"StartForDigitLength":0},{"DestinationNodeName":"Digit1B","Vocabulary":["1","2","3","4","5","6","7","8","9","ein"],"StartForDigitLength":0},{"DestinationNodeName":"NN2DigitA","Vocabulary":["zwanzig","dreißig","vierzig","fünfzig","sechzig","siebzig","achtzig","neunzig","zehn","elf","zwölf","dreizehn","vierzehn","fünfzehn","sechzehn","siebzehn","achtzehn","neunzehn"],"StartForDigitLength":2},{"DestinationNodeName":"NN3DigitA","Vocabulary":["hundert"],"StartForDigitLength":3}],"Digit":0},{"Name":"Digit1A","VocabLinks":[{"DestinationNodeName":"Digit2","Vocabulary":["0","1","2","3","4","5","6","7","8","9"],"StartForDigitLength":0}],"Digit":0},{"Name":"Digit1B","VocabLinks":[{"DestinationNodeName":"Digit2","Vocabulary":["0","1","2","3","4","5","6","7","8","9"],"StartForDigitLength":0},{"DestinationNodeName":"NN2DigitA","Vocabulary":["zwanzig","dreißig","vierzig","fünfzig","sechzig","siebzig","achtzig","neunzig"],"StartForDigitLength":2},{"DestinationNodeName":"NN2DigitA1","Vocabulary":["und"],"StartForDigitLength":2},{"DestinationNodeName":"NN3DigitA","Vocabulary":["hundert"],"StartForDigitLength":3}],"Digit":0},{"Name":"Digit2","VocabLinks":null,"Digit":0},{"Name":"NN2DigitA","VocabLinks":null,"Digit":0},{"Name":"NN2DigitA1","VocabLinks":[{"DestinationNodeName":"NN2DigitA","Vocabulary":["zwanzig","dreißig","vierzig","fünfzig","sechzig","siebzig","achtzig","neunzig"],"StartForDigitLength":0}],"Digit":0},{"Name":"NN3DigitA","VocabLinks":[{"DestinationNodeName":"NN3DigitA1","Vocabulary":["1","2","3","4","5","6","7","8","9","ein"],"StartForDigitLength":0},{"DestinationNodeName":"NN2DigitA","Vocabulary":["zwanzig","dreißig","vierzig","fünfzig","sechzig","siebzig","achtzig","neunzig","zehn","elf","zwölf","dreizehn","vierzehn","fünfzehn","sechzehn","siebzehn","achtzehn","neunzehn"],"StartForDigitLength":0}],"Digit":0},{"Name":"NN3DigitA1","VocabLinks":[{"DestinationNodeName":"NN2DigitA","Vocabulary":["zwanzig","dreißig","vierzig","fünfzig","sechzig","siebzig","achtzig","neunzig"],"StartForDigitLength":0},{"DestinationNodeName":"NN2DigitA1","Vocabulary":["und"],"StartForDigitLength":0}],"Digit":0}],"NextStrungOutDigit":3,"NextStrungOutDigitFromNode":"Digit2"},"en":{"VocabToValueMapping":{"ten":10,"eleven":11,"twelve":12,"thirteen":13,"fourteen":14,"fifteen":15,"sixteen":16,"seventeen":17,"eighteen":18,"nineteen":19,"twenty":20,"thirty":30,"forty":40,"fifty":50,"sixty":60,"seventy":70,"eighty":80,"ninety":90,"hundred":100,"0":0,"1":1,"2":2,"3":3,"4":4,"5":5,"6":6,"7":7,"8":8,"9":9},"Nodes":[{"Name":"","VocabLinks":[{"DestinationNodeName":"Digit1A","Vocabulary":["0"],"StartForDigitLength":0},{"DestinationNodeName":"Digit1B","Vocabulary":["1","2","3","4","5","6","7","8","9"],"StartForDigitLength":0},{"DestinationNodeName":"NN2DigitA","Vocabulary":["twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety"],"StartForDigitLength":2},{"DestinationNodeName":"NN2DigitB","Vocabulary":["ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"],"StartForDigitLength":2}],"Digit":1},{"Name":"Digit1A","VocabLinks":[{"DestinationNodeName":"Digit2","Vocabulary":["0","1","2","3","4","5","6","7","8","9"],"StartForDigitLength":0}],"Digit":1},{"Name":"Digit1B","VocabLinks":[{"DestinationNodeName":"Digit2","Vocabulary":["0","1","2","3","4","5","6","7","8","9"],"StartForDigitLength":0},{"DestinationNodeName":"NN3DigitA","Vocabulary":["hundred"],"StartForDigitLength":3}],"Digit":1},{"Name":"Digit2","VocabLinks":null,"Digit":2},{"Name":"NN2DigitA","VocabLinks":[{"DestinationNodeName":"NN2DigitA1","Vocabulary":["1","2","3","4","5","6","7","8","9"],"StartForDigitLength":0}],"Digit":2},{"Name":"NN2DigitA1","VocabLinks":null,"Digit":2},{"Name":"NN2DigitB","VocabLinks":null,"Digit":2},{"Name":"NN3DigitA","VocabLinks":[{"DestinationNodeName":"NN3DigitA1","Vocabulary":["1","2","3","4","5","6","7","8","9"],"StartForDigitLength":0},{"DestinationNodeName":"NN2DigitA","Vocabulary":["twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety"],"StartForDigitLength":0},{"DestinationNodeName":"NN2DigitB","Vocabulary":["ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"],"StartForDigitLength":0}],"Digit":3},{"Name":"NN3DigitA1","VocabLinks":null,"Digit":3}],"NextStrungOutDigit":3,"NextStrungOutDigitFromNode":"Digit2"},"es":{"VocabToValueMapping":{"y uno":1,"y dos":2,"y tres":3,"y cuatro":4,"y cinco":5,"y seis":6,"y siete":7,"y ocho":8,"y nueve":9,"diez":10,"once":11,"doce":12,"trece":13,"catorce":14,"quince":15,"dieciséis":16,"diecisiete":17,"dieciocho":18,"diecinueve":19,"veinte":20,"treinta":30,"cuarenta":40,"cincuenta":50,"sesenta":60,"setenta":70,"ochenta":80,"noventa":90,"cien":100,"cientos":100,"doscientos":200,"trescientos":300,"cuatrocientos":400,"quinientos":500,"seiscientos":600,"setecientos":700,"ochocientos":800,"nuevecientos":900,"0":0,"1":1,"2":2,"3":3,"4":4,"5":5,"6":6,"7":7,"8":8,"9":9},"Nodes":[{"Name":"","VocabLinks":[{"DestinationNodeName":"Digit1A","Vocabulary":["0","1"],"StartForDigitLength":0},{"DestinationNodeName":"Digit1B","Vocabulary":["2","3","4","5","6","7","8","9"],"StartForDigitLength":0},{"DestinationNodeName":"NN2DigitA","Vocabulary":["treinta","cuarenta","cincuenta","sesenta","setenta","ochenta","noventa"],"StartForDigitLength":2},{"DestinationNodeName":"NN2DigitB","Vocabulary":["diez","once","doce","trece","catorce","quince","dieciséis","diecisiete","dieciocho","diecinueve"],"StartForDigitLength":2},{"DestinationNodeName":"NN2DigitC","Vocabulary":["veinte"],"StartForDigitLength":2},{"DestinationNodeName":"NN3DigitA","Vocabulary":["cientos","doscientos","trescientos","cuatrocientos","quinientos","seiscientos","setecientos","ochocientos","nuevecientos"],"StartForDigitLength":3},{"DestinationNodeName":"NN3DigitB","Vocabulary":["cien"],"StartForDigitLength":3}],"Digit":1},{"Name":"Digit1A","VocabLinks":[{"DestinationNodeName":"Digit2","Vocabulary":["0","1","2","3","4","5","6","7","8","9"],"StartForDigitLength":0}],"Digit":1},{"Name":"Digit1B","VocabLinks":[{"DestinationNodeName":"Digit2","Vocabulary":["0","1","2","3","4","5","6","7","8","9"],"StartForDigitLength":0},{"DestinationNodeName":"NN3DigitA","Vocabulary":["cientos"],"StartForDigitLength":3}],"Digit":1},{"Name":"Digit2","VocabLinks":null,"Digit":2},{"Name":"NN2DigitA","VocabLinks":[{"DestinationNodeName":"NN2DigitA2","Vocabulary":["y uno","y dos","y tres","y cuatro","y cinco","y seis","y siete","y ocho","y nueve"],"StartForDigitLength":0}],"Digit":2},{"Name":"NN2DigitA1","VocabLinks":null,"Digit":2},{"Name":"NN2DigitA2","VocabLinks":null,"Digit":2},{"Name":"NN2DigitB","VocabLinks":null,"Digit":2},{"Name":"NN2DigitC","VocabLinks":[{"DestinationNodeName":"NN2DigitA1","Vocabulary":["1","2","3","4","5","6","7","8","9"],"StartForDigitLength":0}],"Digit":2},{"Name":"NN3DigitA","VocabLinks":[{"DestinationNodeName":"NN3DigitA1","Vocabulary":["1","2","3","4","5","6","7","8","9"],"StartForDigitLength":0},{"DestinationNodeName":"NN2DigitA","Vocabulary":["treinta","cuarenta","cincuenta","sesenta","setenta","ochenta","noventa"],"StartForDigitLength":0},{"DestinationNodeName":"NN2DigitB","Vocabulary":["diez","once","doce","trece","catorce","quince","dieciséis","diecisiete","dieciocho","diecinueve"],"StartForDigitLength":0},{"DestinationNodeName":"NN2DigitC","Vocabulary":["veinte"],"StartForDigitLength":0}],"Digit":3},{"Name":"NN3DigitA1","VocabLinks":null,"Digit":3},{"Name":"NN3DigitB","VocabLinks":null,"Digit":3}],"NextStrungOutDigit":3,"NextStrungOutDigitFromNode":"Digit2"},"fr":{"VocabToValueMapping":{"et":0,"dix":10,"onze":11,"douze":12,"treize":13,"quatorze":14,"quinze":15,"seize":16,"dix-sept":17,"dix-huit":18,"dix-neuf":19,"van":20,"trente":30,"quarante":40,"cinquante":50,"soixante":60,"quatre-vingts":80,"cent":100,"0":0,"1":1,"2":2,"3":3,"4":4,"5":5,"6":6,"7":7,"8":8,"9":9},"Nodes":[{"Name":"","VocabLinks":[{"DestinationNodeName":"Digit1A","Vocabulary":["0","1"],"StartForDigitLength":0},{"DestinationNodeName":"Digit1B","Vocabulary":["2","3","4","5","6","7","8","9"],"StartForDigitLength":0},{"DestinationNodeName":"NN2DigitA","Vocabulary":["van","trente","quarante","cinquante"],"StartForDigitLength":2},{"DestinationNodeName":"NN2DigitB","Vocabulary":["soixante","quatre-vingts"],"StartForDigitLength":2},{"DestinationNodeName":"NN2DigitC","Vocabulary":["dix","onze","douze","treize","quatorze","quinze","seize","dix-sept","dix-huit","dix-neuf"],"StartForDigitLength":2},{"DestinationNodeName":"NN3DigitA","Vocabulary":["cent"],"StartForDigitLength":3}],"Digit":0},{"Name":"Digit1A","VocabLinks":[{"DestinationNodeName":"Digit2","Vocabulary":["0","1","2","3","4","5","6","7","8","9"],"StartForDigitLength":0}],"Digit":0},{"Name":"Digit1B","VocabLinks":[{"DestinationNodeName":"Digit2","Vocabulary":["0","1","2","3","4","5","6","7","8","9"],"StartForDigitLength":0},{"DestinationNodeName":"NN3DigitA","Vocabulary":["cent"],"StartForDigitLength":3}],"Digit":0},{"Name":"Digit2","VocabLinks":null,"Digit":0},{"Name":"NN2DigitA","VocabLinks":[{"DestinationNodeName":"NN2DigitA1","Vocabulary":["1","2","3","4","5","6","7","8","9"],"StartForDigitLength":0},{"DestinationNodeName":"NN2DigitA2","Vocabulary":["et"],"StartForDigitLength":0}],"Digit":0},{"Name":"NN2DigitA1","VocabLinks":null,"Digit":0},{"Name":"NN2DigitA2","VocabLinks":[{"DestinationNodeName":"NN2DigitA1","Vocabulary":["1"],"StartForDigitLength":0}],"Digit":0},{"Name":"NN2DigitB","VocabLinks":[{"DestinationNodeName":"NN2DigitA1","Vocabulary":["1","2","3","4","5","6","7","8","9","dix","onze","douze","treize","quatorze","quinze","seize","dix-sept","dix-huit","dix-neuf"],"StartForDigitLength":0},{"DestinationNodeName":"NN2DigitA2","Vocabulary":["et"],"StartForDigitLength":0}],"Digit":0},{"Name":"NN2DigitC","VocabLinks":null,"Digit":0},{"Name":"NN3DigitA","VocabLinks":[{"DestinationNodeName":"NN2DigitC","Vocabulary":["1","2","3","4","5","6","7","8","9","dix","onze","douze","treize","quatorze","quinze","seize","dix-sept","dix-huit","dix-neuf"],"StartForDigitLength":0},{"DestinationNodeName":"NN2DigitA","Vocabulary":["van","trente","quarante","cinquante"],"StartForDigitLength":0},{"DestinationNodeName":"NN2DigitB","Vocabulary":["soixante","quatre-vingts"],"StartForDigitLength":0}],"Digit":0}],"NextStrungOutDigit":3,"NextStrungOutDigitFromNode":"Digit2"}}
+2023-12-14 10:56:47.231 [INFO]  AndroidPlatformService - [1] Using preferred audio v2
+2023-12-14 10:56:47.270 [TRACE] MicroserviceLicensingService - [5] Application license check - can't proceed, no configured customer UUID
+2023-12-14 10:56:47.278 [INFO]  TCPSocketQueue - [4] File /storage/emulated/0/Android/data/com.honeywell.GWSApp/files/viomodule_tcp_LUT_queue.bin not found.
+2023-12-14 10:56:47.309 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PushReplace: HomeWorkflowActivity - end
+2023-12-14 10:56:47.310 [INFO]  [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] WorkflowActivityStack: {0: [WfaLU: Name=HomeWorkflowActivity, Id=11]}
+2023-12-14 10:56:47.327 [INFO]  TCPSocketQueue - [4] File /storage/emulated/0/Android/data/com.honeywell.GWSApp/files/viomodule_tcp_ODR_queue.bin not found.
+2023-12-14 10:56:47.344 [INFO]  TCPSocketQueue - [4] File /storage/emulated/0/Android/data/com.honeywell.GWSApp/files/viomodule_tcp_error_queue.bin not found.
+2023-12-14 10:56:47.363 [INFO]  NfcMusicSvc - [1] Service Created
+2023-12-14 10:56:47.388 [INFO]  NfcMusicSvc - [1] Service OnStartCommand
+2023-12-14 10:56:47.388 [INFO]  NfcMusicSvc - [1] Creating MediaSession
+2023-12-14 10:56:47.465 [INFO]  NfcMusicSvc - [1] Request audio focus result: Granted
+2023-12-14 10:56:47.549 [INFO]  VIOStateMachine - [4] Searching image from cache
+2023-12-14 10:56:47.550 [DEBUG] VIOStateMachine - [4] Retrieving from file
+2023-12-14 10:56:47.598 [INFO]  VIOStateMachine - [4] Cleaning cache
+2023-12-14 10:56:47.702 [INFO]  VIOStateMachine - [4] 0 images deleted, 0 entries removed
+2023-12-14 10:56:47.780 [INFO]  NfcMusicSvc - [1] Media buttons directed to crc64ecc985e93d0b5d94.NfcMusicSvc@7ef48d4
+2023-12-14 10:56:47.922 [INFO]  TextToSpeechService - [1] TextToSpeech.IOnInitListener.OnInit() succeeded
+2023-12-14 10:56:47.936 [TRACE] TextToSpeechService - [1] Platform reported init complete, result=True
+2023-12-14 10:56:49.223 [INFO]  MainActivity - [1] MainActivity.OnPause - IsFinishing=False
+2023-12-14 10:56:49.230 [INFO]  [[WfaLU: Name=HomeWorkflowActivity, Id=11] [WorkflowViewController: Type=GuidedWorkHomeController, Id=12]] - [1] [XamarinPageView: Type=GuidedWorkHomeView, ViewId=14] OnDisappearing
+2023-12-14 10:56:49.958 [INFO]  FormsApp - [1] OnSleep
+2023-12-14 10:56:50.396 [INFO]  AndroidResourceMonitor - [4] MaxMem: 268435456 - TotalMem: 5218111 - FreeMem: 2055927 - GCTotalMem: 7829504:
+2023-12-14 10:57:00.386 [INFO]  AndroidResourceMonitor - [9] MaxMem: 268435456 - TotalMem: 5218111 - FreeMem: 2055927 - GCTotalMem: 7829504:
+2023-12-14 10:57:10.386 [INFO]  AndroidResourceMonitor - [8] MaxMem: 268435456 - TotalMem: 5218111 - FreeMem: 2055927 - GCTotalMem: 7829504:
+2023-12-14 10:57:20.386 [INFO]  AndroidResourceMonitor - [4] MaxMem: 268435456 - TotalMem: 5218111 - FreeMem: 2055927 - GCTotalMem: 7829504:
+2023-12-14 10:57:30.386 [INFO]  AndroidResourceMonitor - [8] MaxMem: 268435456 - TotalMem: 5218111 - FreeMem: 2055927 - GCTotalMem: 7829504:
+2023-12-14 10:57:40.386 [INFO]  AndroidResourceMonitor - [8] MaxMem: 268435456 - TotalMem: 5218111 - FreeMem: 2055927 - GCTotalMem: 7829744:
+2023-12-14 10:57:40.506 [INFO]  MainActivity - [4] Running Garbage Collection
+2023-12-14 10:57:50.387 [INFO]  AndroidResourceMonitor - [4] MaxMem: 268435456 - TotalMem: 5383533 - FreeMem: 2675381 - GCTotalMem: 6713840:
+2023-12-14 10:58:00.387 [INFO]  AndroidResourceMonitor - [4] MaxMem: 268435456 - TotalMem: 5383533 - FreeMem: 2675381 - GCTotalMem: 6713840:
+2023-12-14 10:58:10.387 [INFO]  AndroidResourceMonitor - [8] MaxMem: 268435456 - TotalMem: 5383533 - FreeMem: 2675381 - GCTotalMem: 6713840:
+2023-12-14 10:58:20.387 [INFO]  AndroidResourceMonitor - [4] MaxMem: 268435456 - TotalMem: 5383533 - FreeMem: 2675381 - GCTotalMem: 6713840:
+2023-12-14 10:58:30.387 [INFO]  AndroidResourceMonitor - [4] MaxMem: 268435456 - TotalMem: 5383533 - FreeMem: 2675381 - GCTotalMem: 6713840:
+2023-12-14 10:58:40.387 [INFO]  AndroidResourceMonitor - [8] MaxMem: 268435456 - TotalMem: 5383533 - FreeMem: 2675381 - GCTotalMem: 6713840:
+2023-12-14 10:58:40.559 [INFO]  MainActivity - [8] Running Garbage Collection
+2023-12-14 10:58:50.389 [INFO]  AndroidResourceMonitor - [8] MaxMem: 268435456 - TotalMem: 5383389 - FreeMem: 2642541 - GCTotalMem: 6674688:
+2023-12-14 10:59:00.388 [INFO]  AndroidResourceMonitor - [13] MaxMem: 268435456 - TotalMem: 5383389 - FreeMem: 2642541 - GCTotalMem: 6674688:
+2023-12-14 10:59:10.388 [INFO]  AndroidResourceMonitor - [8] MaxMem: 268435456 - TotalMem: 5383389 - FreeMem: 2642541 - GCTotalMem: 6674688:
+2023-12-14 10:59:20.389 [INFO]  AndroidResourceMonitor - [8] MaxMem: 268435456 - TotalMem: 5383389 - FreeMem: 2642301 - GCTotalMem: 6674928:
+2023-12-14 10:59:30.388 [INFO]  AndroidResourceMonitor - [14] MaxMem: 268435456 - TotalMem: 5383389 - FreeMem: 2642301 - GCTotalMem: 6674928:
+2023-12-14 10:59:40.389 [INFO]  AndroidResourceMonitor - [14] MaxMem: 268435456 - TotalMem: 5383389 - FreeMem: 2625917 - GCTotalMem: 6675168:
+2023-12-14 10:59:40.612 [INFO]  MainActivity - [15] Running Garbage Collection
+2023-12-14 10:59:50.390 [INFO]  AndroidResourceMonitor - [15] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2658709 - GCTotalMem: 6670808:
+2023-12-14 11:00:00.391 [INFO]  AndroidResourceMonitor - [16] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2625941 - GCTotalMem: 6671288:
+2023-12-14 11:00:10.390 [INFO]  AndroidResourceMonitor - [18] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2625701 - GCTotalMem: 6671528:
+2023-12-14 11:00:20.390 [INFO]  AndroidResourceMonitor - [18] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2625461 - GCTotalMem: 6671768:
+2023-12-14 11:00:30.389 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2625461 - GCTotalMem: 6671768:
+2023-12-14 11:00:40.390 [INFO]  AndroidResourceMonitor - [18] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2625461 - GCTotalMem: 6671768:
+2023-12-14 11:00:40.664 [INFO]  MainActivity - [20] Running Garbage Collection
+2023-12-14 11:00:50.390 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2675093 - GCTotalMem: 6671024:
+2023-12-14 11:01:00.390 [INFO]  AndroidResourceMonitor - [18] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2675093 - GCTotalMem: 6671024:
+2023-12-14 11:01:10.392 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2642325 - GCTotalMem: 6671504:
+2023-12-14 11:01:20.391 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2642085 - GCTotalMem: 6671744:
+2023-12-14 11:01:30.391 [INFO]  AndroidResourceMonitor - [23] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2642085 - GCTotalMem: 6671744:
+2023-12-14 11:01:40.391 [INFO]  AndroidResourceMonitor - [23] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2642085 - GCTotalMem: 6671744:
+2023-12-14 11:01:40.715 [INFO]  MainActivity - [20] Running Garbage Collection
+2023-12-14 11:01:50.391 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2658709 - GCTotalMem: 6671320:
+2023-12-14 11:02:00.392 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2658469 - GCTotalMem: 6671560:
+2023-12-14 11:02:10.391 [INFO]  AndroidResourceMonitor - [25] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2658469 - GCTotalMem: 6671560:
+2023-12-14 11:02:20.392 [INFO]  AndroidResourceMonitor - [25] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2642085 - GCTotalMem: 6671800:
+2023-12-14 11:02:30.391 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2642085 - GCTotalMem: 6671800:
+2023-12-14 11:02:40.391 [INFO]  AndroidResourceMonitor - [25] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2642085 - GCTotalMem: 6671800:
+2023-12-14 11:02:40.767 [INFO]  MainActivity - [20] Running Garbage Collection
+2023-12-14 11:02:50.391 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2675093 - GCTotalMem: 6671136:
+2023-12-14 11:03:00.392 [INFO]  AndroidResourceMonitor - [25] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2675093 - GCTotalMem: 6671136:
+2023-12-14 11:03:02.280 [INFO]  FormsApp - [1] OnResume
+2023-12-14 11:03:07.179 [INFO]  MainActivity - [1] MainActivity.OnResume
+2023-12-14 11:03:07.187 [INFO]  [[WfaLU: Name=HomeWorkflowActivity, Id=11] [WorkflowViewController: Type=GuidedWorkHomeController, Id=12]] - [1] [XamarinPageView: Type=GuidedWorkHomeView, ViewId=14] OnAppearing
+2023-12-14 11:03:07.507 [INFO]  MainActivity - [1] MainActivity.OnPause - IsFinishing=False
+2023-12-14 11:03:07.510 [INFO]  [[WfaLU: Name=HomeWorkflowActivity, Id=11] [WorkflowViewController: Type=GuidedWorkHomeController, Id=12]] - [1] [XamarinPageView: Type=GuidedWorkHomeView, ViewId=14] OnDisappearing
+2023-12-14 11:03:08.242 [INFO]  FormsApp - [1] OnSleep
+2023-12-14 11:03:10.393 [INFO]  AndroidResourceMonitor - [25] MaxMem: 268435456 - TotalMem: 5382957 - FreeMem: 2314085 - GCTotalMem: 6674360:
+2023-12-14 11:03:11.024 [INFO]  FormsApp - [1] OnResume
+2023-12-14 11:03:11.352 [INFO]  MainActivity - [1] MainActivity.OnResume
+2023-12-14 11:03:11.357 [INFO]  [[WfaLU: Name=HomeWorkflowActivity, Id=11] [WorkflowViewController: Type=GuidedWorkHomeController, Id=12]] - [1] [XamarinPageView: Type=GuidedWorkHomeView, ViewId=14] OnAppearing
+2023-12-14 11:03:13.908 [TRACE] AppCompatRootPageRenderer - [1] Navigation bar listener back button pressed on root nav stack
+2023-12-14 11:03:20.392 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5466398 - FreeMem: 2520014 - GCTotalMem: 6882840:
+2023-12-14 11:03:21.299 [TRACE] AppCompatRootPageRenderer - [1] Navigation bar listener back button pressed on root nav stack
+2023-12-14 11:03:22.485 [TRACE] [WfaLU: Name=HomeWorkflowActivity, Id=11] - [1] PublishEvent [WfaEvent: Name=Home, SourceWfa=[WfaLU: Name=HomeWorkflowActivity, Id=11]] - begin
+2023-12-14 11:03:22.485 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PublishEvent: calling [WfaC : Name=BaseWorkflowActivity, Id=3] handler: calling base handler
+2023-12-14 11:03:22.485 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PublishEvent [WfaEvent: Name=Home, SourceWfa=[WfaLU: Name=HomeWorkflowActivity, Id=11]] - begin
+2023-12-14 11:03:22.486 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PublishEvent: enqueue [PushReplaceTransitionEventHandler: Destination=HomeWorkflowActivity]
+2023-12-14 11:03:22.486 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PushReplace: HomeWorkflowActivity - begin
+2023-12-14 11:03:22.487 [INFO]  [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] WorkflowActivityStack: {0: [WfaLU: Name=HomeWorkflowActivity, Id=11]}
+2023-12-14 11:03:22.498 [INFO]  ConfigurationDataService - [1] Attempting to load local configuration file: Microservices.config
+2023-12-14 11:03:22.837 [TRACE] [WfaLU: Name=HomeWorkflowActivity, Id=11] - [1] Pause
+2023-12-14 11:03:22.838 [TRACE] [[WfaLU: Name=HomeWorkflowActivity, Id=11] [WorkflowViewController: Type=GuidedWorkHomeController, Id=12]] - [1] pausing [GuidedWork.GuidedWorkHomeView] with GuidedWork.GuidedWorkHomeViewModel
+2023-12-14 11:03:22.838 [INFO]  XamarinPageViewAdapter - [1] PauseViewAsync [XamarinPageView: Type=GuidedWorkHomeView, ViewId=14]
+2023-12-14 11:03:22.856 [TRACE] [WfaLU: Name=HomeWorkflowActivity, Id=11] - [1] Stop
+2023-12-14 11:03:22.857 [TRACE] [[WfaLU: Name=HomeWorkflowActivity, Id=11] [WorkflowViewController: Type=GuidedWorkHomeController, Id=12]] - [1] stopping [GuidedWork.GuidedWorkHomeView] with GuidedWork.GuidedWorkHomeViewModel
+2023-12-14 11:03:22.857 [INFO]  XamarinPageViewAdapter - [1] StopViewAsync [XamarinPageView: Type=GuidedWorkHomeView, ViewId=14]
+2023-12-14 11:03:22.858 [TRACE] [WfaLU: Name=HomeWorkflowActivity, Id=15] - [1] Start PushReplaceNavigation
+2023-12-14 11:03:22.891 [INFO]  AppWfaRegistrant - [1] Found settings wfa: VIO_settings_wfa.json
+2023-12-14 11:03:22.911 [TRACE] [[WfaLU: Name=HomeWorkflowActivity, Id=15] [WorkflowViewController: Type=GuidedWorkHomeController, Id=16]] - [1] starting [GuidedWork.GuidedWorkHomeView] with GuidedWork.GuidedWorkHomeViewModel
+2023-12-14 11:03:22.911 [INFO]  XamarinPageViewAdapter - [1] creating view of type GuidedWork.GuidedWorkHomeView with view model [WorkflowViewModel: Type=GuidedWorkHomeViewModel, Id=17])
+2023-12-14 11:03:22.915 [INFO]  XamarinPageViewAdapter - [1] StartViewAsync [XamarinPageView: Type=GuidedWorkHomeView, ViewId=18]
+2023-12-14 11:03:22.927 [INFO]  [[WfaLU: Name=HomeWorkflowActivity, Id=11] [WorkflowViewController: Type=GuidedWorkHomeController, Id=12]] - [1] [XamarinPageView: Type=GuidedWorkHomeView, ViewId=14] OnDisappearing
+2023-12-14 11:03:22.929 [INFO]  DialogueViewAdapter - [1] StartViewAsync 
+2023-12-14 11:03:22.929 [INFO]  DialogueViewAdapter - [1]  Enabled = false
+2023-12-14 11:03:22.971 [INFO]  [[WfaLU: Name=HomeWorkflowActivity, Id=15] [WorkflowViewController: Type=GuidedWorkHomeController, Id=16]] - [1] [XamarinPageView: Type=GuidedWorkHomeView, ViewId=18] OnAppearing
+2023-12-14 11:03:22.973 [INFO]  XamarinPageViewAdapter - [1] XF-nav: {0: [XamarinPageView: Type=GuidedWorkHomeView, ViewId=18]}
+2023-12-14 11:03:23.093 [INFO]  AndroidPlatformService - [1] Using preferred audio v2
+2023-12-14 11:03:23.096 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PushReplace: HomeWorkflowActivity - end
+2023-12-14 11:03:23.096 [INFO]  [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] WorkflowActivityStack: {0: [WfaLU: Name=HomeWorkflowActivity, Id=15]}
+2023-12-14 11:03:23.139 [INFO]  NfcMusicSvc - [1] Service OnStartCommand
+2023-12-14 11:03:23.139 [INFO]  NfcMusicSvc - [1] Service Already Running
+2023-12-14 11:03:23.191 [INFO]  RESTQueue - [25] Request ID: 1, Failures: 0, Queue Count: 0, Message Enqueueing POST, URL: https://enterprise-qa.voice.api.honeywell.com/licenses/v1/leases/provision
+2023-12-14 11:03:23.196 [INFO]  RESTQueue - [25] Request ID: 1, Failures: 0, Queue Count: 1, Message Signaled next request POST, URL: https://enterprise-qa.voice.api.honeywell.com/licenses/v1/leases/provision
+2023-12-14 11:03:23.200 [INFO]  RESTQueue - [25] Request ID: 1, Failures: 0, Queue Count: 1, Message Waiting on POST, URL: https://enterprise-qa.voice.api.honeywell.com/licenses/v1/leases/provision
+2023-12-14 11:03:23.224 [INFO]  RESTQueue - [25] Request ID: 1, Failures: 0, Queue Count: 1, Message Sending Request using POST, URL: https://enterprise-qa.voice.api.honeywell.com/licenses/v1/leases/provision, Request Data: {"customerUUID":"2006748d-1f48-4ed0-b97e-658cddbb7060"}
+2023-12-14 11:03:23.316 [INFO]  RESTQueue - [25] Updating REST Queue proxy settings for https://enterprise-qa.voice.api.honeywell.com:443.  Proxy bypassed
+2023-12-14 11:03:24.167 [INFO]  MainActivity - [1] MainActivity::OnBackPressed
+2023-12-14 11:03:24.177 [TRACE] [WfaLU: Name=HomeWorkflowActivity, Id=15] - [1] PublishEvent [WfaEvent: Name=Home, SourceWfa=[WfaLU: Name=HomeWorkflowActivity, Id=15]] - begin
+2023-12-14 11:03:24.177 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PublishEvent: calling [WfaC : Name=BaseWorkflowActivity, Id=3] handler: calling base handler
+2023-12-14 11:03:24.177 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PublishEvent [WfaEvent: Name=Home, SourceWfa=[WfaLU: Name=HomeWorkflowActivity, Id=15]] - begin
+2023-12-14 11:03:24.177 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PublishEvent: enqueue [PushReplaceTransitionEventHandler: Destination=HomeWorkflowActivity]
+2023-12-14 11:03:24.177 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PushReplace: HomeWorkflowActivity - begin
+2023-12-14 11:03:24.177 [INFO]  [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] WorkflowActivityStack: {0: [WfaLU: Name=HomeWorkflowActivity, Id=15]}
+2023-12-14 11:03:24.195 [TRACE] [WfaLU: Name=HomeWorkflowActivity, Id=15] - [1] Pause
+2023-12-14 11:03:24.196 [TRACE] [[WfaLU: Name=HomeWorkflowActivity, Id=15] [WorkflowViewController: Type=GuidedWorkHomeController, Id=16]] - [1] pausing [GuidedWork.GuidedWorkHomeView] with GuidedWork.GuidedWorkHomeViewModel
+2023-12-14 11:03:24.196 [INFO]  XamarinPageViewAdapter - [1] PauseViewAsync [XamarinPageView: Type=GuidedWorkHomeView, ViewId=18]
+2023-12-14 11:03:24.211 [TRACE] [WfaLU: Name=HomeWorkflowActivity, Id=15] - [1] Stop
+2023-12-14 11:03:24.213 [TRACE] [[WfaLU: Name=HomeWorkflowActivity, Id=15] [WorkflowViewController: Type=GuidedWorkHomeController, Id=16]] - [1] stopping [GuidedWork.GuidedWorkHomeView] with GuidedWork.GuidedWorkHomeViewModel
+2023-12-14 11:03:24.213 [INFO]  XamarinPageViewAdapter - [1] StopViewAsync [XamarinPageView: Type=GuidedWorkHomeView, ViewId=18]
+2023-12-14 11:03:24.213 [TRACE] [WfaLU: Name=HomeWorkflowActivity, Id=19] - [1] Start PushReplaceNavigation
+2023-12-14 11:03:24.247 [INFO]  AppWfaRegistrant - [1] Found settings wfa: VIO_settings_wfa.json
+2023-12-14 11:03:24.263 [TRACE] [[WfaLU: Name=HomeWorkflowActivity, Id=19] [WorkflowViewController: Type=GuidedWorkHomeController, Id=20]] - [1] starting [GuidedWork.GuidedWorkHomeView] with GuidedWork.GuidedWorkHomeViewModel
+2023-12-14 11:03:24.263 [INFO]  XamarinPageViewAdapter - [1] creating view of type GuidedWork.GuidedWorkHomeView with view model [WorkflowViewModel: Type=GuidedWorkHomeViewModel, Id=21])
+2023-12-14 11:03:24.266 [INFO]  XamarinPageViewAdapter - [1] StartViewAsync [XamarinPageView: Type=GuidedWorkHomeView, ViewId=22]
+2023-12-14 11:03:24.274 [INFO]  [[WfaLU: Name=HomeWorkflowActivity, Id=15] [WorkflowViewController: Type=GuidedWorkHomeController, Id=16]] - [1] [XamarinPageView: Type=GuidedWorkHomeView, ViewId=18] OnDisappearing
+2023-12-14 11:03:24.276 [INFO]  DialogueViewAdapter - [1] StartViewAsync 
+2023-12-14 11:03:24.277 [INFO]  DialogueViewAdapter - [1]  Enabled = false
+2023-12-14 11:03:24.308 [INFO]  [[WfaLU: Name=HomeWorkflowActivity, Id=19] [WorkflowViewController: Type=GuidedWorkHomeController, Id=20]] - [1] [XamarinPageView: Type=GuidedWorkHomeView, ViewId=22] OnAppearing
+2023-12-14 11:03:24.311 [INFO]  XamarinPageViewAdapter - [1] XF-nav: {0: [XamarinPageView: Type=GuidedWorkHomeView, ViewId=22]}
+2023-12-14 11:03:24.446 [INFO]  AndroidPlatformService - [1] Using preferred audio v2
+2023-12-14 11:03:24.449 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PushReplace: HomeWorkflowActivity - end
+2023-12-14 11:03:24.450 [INFO]  [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] WorkflowActivityStack: {0: [WfaLU: Name=HomeWorkflowActivity, Id=19]}
+2023-12-14 11:03:24.454 [INFO]  RESTQueue - [28] Request ID: 2, Failures: 0, Queue Count: 1, Message Enqueueing POST, URL: https://enterprise-qa.voice.api.honeywell.com/licenses/v1/leases/provision
+2023-12-14 11:03:24.454 [INFO]  RESTQueue - [28] Request ID: 1, Failures: 0, Queue Count: 2, Message Signaled next request POST, URL: https://enterprise-qa.voice.api.honeywell.com/licenses/v1/leases/provision
+2023-12-14 11:03:24.454 [INFO]  RESTQueue - [28] Request ID: 2, Failures: 0, Queue Count: 2, Message Waiting on POST, URL: https://enterprise-qa.voice.api.honeywell.com/licenses/v1/leases/provision
+2023-12-14 11:03:24.480 [INFO]  NfcMusicSvc - [1] Service OnStartCommand
+2023-12-14 11:03:24.480 [INFO]  NfcMusicSvc - [1] Service Already Running
+2023-12-14 11:03:24.519 [ERROR] RESTQueue - [29] Request ID: 1, Failures: 0, Queue Count: 2, Message Authentication failed. Retrying..., URL: https://enterprise-qa.voice.api.honeywell.com/licenses/v1/leases/provision
+2023-12-14 11:03:24.624 [INFO]  RESTQueue - [25] Request ID: 1, Failures: 1, Queue Count: 2, Message POST request at /licenses/v1/leases/provision canceled by caller., URL: https://enterprise-qa.voice.api.honeywell.com/licenses/v1/leases/provision
+2023-12-14 11:03:24.634 [INFO]  RESTQueue - [25] Request ID: 1, Failures: 1, Queue Count: 2, Message Canceling POST, URL: https://enterprise-qa.voice.api.honeywell.com/licenses/v1/leases/provision
+2023-12-14 11:03:24.641 [INFO]  RESTQueue - [25] Request ID: 1, Failures: 1, Queue Count: 2, Message Dequeueing POST, URL: https://enterprise-qa.voice.api.honeywell.com/licenses/v1/leases/provision
+2023-12-14 11:03:24.643 [INFO]  RESTQueue - [25] Request ID: 2, Failures: 0, Queue Count: 1, Message Signaled next request POST, URL: https://enterprise-qa.voice.api.honeywell.com/licenses/v1/leases/provision
+2023-12-14 11:03:24.647 [INFO]  RESTQueue - [20] Request ID: 2, Failures: 0, Queue Count: 1, Message Sending Request using POST, URL: https://enterprise-qa.voice.api.honeywell.com/licenses/v1/leases/provision, Request Data: {"customerUUID":"2006748d-1f48-4ed0-b97e-658cddbb7060"}
+2023-12-14 11:03:24.655 [ERROR] RESTQueue - [20] Request ID: 2, Failures: 0, Queue Count: 1, Message Authentication failed. Retrying..., URL: https://enterprise-qa.voice.api.honeywell.com/licenses/v1/leases/provision
+2023-12-14 11:03:24.757 [INFO]  RESTQueue - [28] Request ID: 2, Failures: 1, Queue Count: 1, Message POST request at /licenses/v1/leases/provision canceled by caller., URL: https://enterprise-qa.voice.api.honeywell.com/licenses/v1/leases/provision
+2023-12-14 11:03:24.757 [INFO]  RESTQueue - [28] Request ID: 2, Failures: 1, Queue Count: 1, Message Canceling POST, URL: https://enterprise-qa.voice.api.honeywell.com/licenses/v1/leases/provision
+2023-12-14 11:03:24.758 [INFO]  RESTQueue - [28] Request ID: 2, Failures: 1, Queue Count: 1, Message Dequeueing POST, URL: https://enterprise-qa.voice.api.honeywell.com/licenses/v1/leases/provision
+2023-12-14 11:03:24.758 [INFO]  RESTQueue - [28] [0] No request to signal.
+2023-12-14 11:03:26.579 [TRACE] AppCompatRootPageRenderer - [1] Navigation bar listener back button pressed on root nav stack
+2023-12-14 11:03:30.392 [INFO]  AndroidResourceMonitor - [28] MaxMem: 268435456 - TotalMem: 5572255 - FreeMem: 2556719 - GCTotalMem: 9162792:
+2023-12-14 11:03:40.392 [INFO]  AndroidResourceMonitor - [28] MaxMem: 268435456 - TotalMem: 5572255 - FreeMem: 2556719 - GCTotalMem: 9162792:
+2023-12-14 11:03:40.835 [INFO]  MainActivity - [28] Running Garbage Collection
+2023-12-14 11:03:50.393 [INFO]  AndroidResourceMonitor - [25] MaxMem: 268435456 - TotalMem: 5409453 - FreeMem: 2688341 - GCTotalMem: 7002056:
+2023-12-14 11:04:00.393 [INFO]  AndroidResourceMonitor - [25] MaxMem: 268435456 - TotalMem: 5409453 - FreeMem: 2688341 - GCTotalMem: 7002304:
+2023-12-14 11:04:10.393 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5409453 - FreeMem: 2688341 - GCTotalMem: 7002304:
+2023-12-14 11:04:11.991 [INFO]  MainActivity - [1] MainActivity.OnPause - IsFinishing=False
+2023-12-14 11:04:12.015 [INFO]  [[WfaLU: Name=HomeWorkflowActivity, Id=19] [WorkflowViewController: Type=GuidedWorkHomeController, Id=20]] - [1] [XamarinPageView: Type=GuidedWorkHomeView, ViewId=22] OnDisappearing
+2023-12-14 11:04:12.773 [INFO]  FormsApp - [1] OnSleep
+2023-12-14 11:04:20.393 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5409453 - FreeMem: 2589909 - GCTotalMem: 7002304:
+2023-12-14 11:04:30.394 [INFO]  AndroidResourceMonitor - [25] MaxMem: 268435456 - TotalMem: 5409453 - FreeMem: 2573525 - GCTotalMem: 7002544:
+2023-12-14 11:04:40.394 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5409453 - FreeMem: 2573525 - GCTotalMem: 7002544:
+2023-12-14 11:04:40.888 [INFO]  MainActivity - [25] Running Garbage Collection
+2023-12-14 11:04:50.394 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5413598 - FreeMem: 2690414 - GCTotalMem: 6874600:
+2023-12-14 11:05:00.395 [INFO]  AndroidResourceMonitor - [29] MaxMem: 268435456 - TotalMem: 5413598 - FreeMem: 2690414 - GCTotalMem: 6874600:
+2023-12-14 11:05:10.395 [INFO]  AndroidResourceMonitor - [28] MaxMem: 268435456 - TotalMem: 5413598 - FreeMem: 2690414 - GCTotalMem: 6874600:
+2023-12-14 11:05:20.395 [INFO]  AndroidResourceMonitor - [25] MaxMem: 268435456 - TotalMem: 5413598 - FreeMem: 2690414 - GCTotalMem: 6874600:
+2023-12-14 11:05:30.395 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5413598 - FreeMem: 2690414 - GCTotalMem: 6874600:
+2023-12-14 11:05:40.396 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5413598 - FreeMem: 2674030 - GCTotalMem: 6874840:
+2023-12-14 11:05:40.940 [INFO]  MainActivity - [28] Running Garbage Collection
+2023-12-14 11:05:50.395 [INFO]  AndroidResourceMonitor - [28] MaxMem: 268435456 - TotalMem: 5412974 - FreeMem: 2690102 - GCTotalMem: 6873208:
+2023-12-14 11:06:00.395 [INFO]  AndroidResourceMonitor - [28] MaxMem: 268435456 - TotalMem: 5412974 - FreeMem: 2690102 - GCTotalMem: 6873208:
+2023-12-14 11:06:10.395 [INFO]  AndroidResourceMonitor - [28] MaxMem: 268435456 - TotalMem: 5412974 - FreeMem: 2690102 - GCTotalMem: 6873208:
+2023-12-14 11:06:20.395 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5412974 - FreeMem: 2690102 - GCTotalMem: 6873208:
+2023-12-14 11:06:30.396 [INFO]  AndroidResourceMonitor - [28] MaxMem: 268435456 - TotalMem: 5412974 - FreeMem: 2690102 - GCTotalMem: 6873208:
+2023-12-14 11:06:34.630 [INFO]  FormsApp - [1] OnResume
+2023-12-14 11:06:35.000 [INFO]  MainActivity - [1] MainActivity.OnResume
+2023-12-14 11:06:35.003 [INFO]  [[WfaLU: Name=HomeWorkflowActivity, Id=19] [WorkflowViewController: Type=GuidedWorkHomeController, Id=20]] - [1] [XamarinPageView: Type=GuidedWorkHomeView, ViewId=22] OnAppearing
+2023-12-14 11:06:40.395 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5412974 - FreeMem: 2394886 - GCTotalMem: 6873208:
+2023-12-14 11:06:40.995 [INFO]  MainActivity - [28] Running Garbage Collection
+2023-12-14 11:06:50.396 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5409213 - FreeMem: 2671837 - GCTotalMem: 6878512:
+2023-12-14 11:06:53.344 [TRACE] AppCompatRootPageRenderer - [1] Navigation bar listener back button pressed on root nav stack
+2023-12-14 11:06:54.065 [TRACE] [WfaLU: Name=HomeWorkflowActivity, Id=19] - [1] PublishEvent [WfaEvent: Name=Home, SourceWfa=[WfaLU: Name=HomeWorkflowActivity, Id=19]] - begin
+2023-12-14 11:06:54.065 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PublishEvent: calling [WfaC : Name=BaseWorkflowActivity, Id=3] handler: calling base handler
+2023-12-14 11:06:54.066 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PublishEvent [WfaEvent: Name=Home, SourceWfa=[WfaLU: Name=HomeWorkflowActivity, Id=19]] - begin
+2023-12-14 11:06:54.066 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PublishEvent: enqueue [PushReplaceTransitionEventHandler: Destination=HomeWorkflowActivity]
+2023-12-14 11:06:54.066 [TRACE] [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] PushReplace: HomeWorkflowActivity - begin
+2023-12-14 11:06:54.066 [INFO]  [WfaC : Name=BaseWorkflowActivity, Id=3] - [1] WorkflowActivityStack: {0: [WfaLU: Name=HomeWorkflowActivity, Id=19]}
+2023-12-14 11:06:54.078 [INFO]  ConfigurationDataService - [1] Attempting to load local configuration file: Microservices.config
+2023-12-14 11:06:54.199 [TRACE] [WfaLU: Name=HomeWorkflowActivity, Id=19] - [1] Pause
+2023-12-14 11:06:54.199 [TRACE] [[WfaLU: Name=HomeWorkflowActivity, Id=19] [WorkflowViewController: Type=GuidedWorkHomeController, Id=20]] - [1] pausing [GuidedWork.GuidedWorkHomeView] with GuidedWork.GuidedWorkHomeViewModel
+2023-12-14 11:06:54.200 [INFO]  XamarinPageViewAdapter - [1] PauseViewAsync [XamarinPageView: Type=GuidedWorkHomeView, ViewId=22]
+2023-12-14 11:06:54.207 [TRACE] [WfaLU: Name=HomeWorkflowActivity, Id=19] - [1] Stop
+2023-12-14 11:06:54.207 [TRACE] [[WfaLU: Name=HomeWorkflowActivity, Id=19] [WorkflowViewController: Type=GuidedWorkHomeController, Id=20]] - [1] stopping [GuidedWork.GuidedWorkHomeView] with GuidedWork.GuidedWorkHomeViewModel
+2023-12-14 11:06:54.207 [INFO]  XamarinPageViewAdapter - [1] StopViewAsync [XamarinPageView: Type=GuidedWorkHomeView, ViewId=22]
+2023-12-14 11:06:54.207 [TRACE] [WfaLU: Name=HomeWorkflowActivity, Id=23] - [1] Start PushReplaceNavigation
+2023-12-14 11:06:54.241 [INFO]  AppWfaRegistrant - [1] Found settings wfa: VIO_settings_wfa.json
+2023-12-14 11:06:54.259 [ERROR] [[WfaLU: Name=HomeWorkflowActivity, Id=23] [WorkflowViewController: Type=GuidedWorkHomeController, Id=24]] - [1] StartAsync exception: System.IO.FileNotFoundException: Could not find file "/storage/emulated/0/Documents/GWExternalResources.resources"
+File name: '/storage/emulated/0/Documents/GWExternalResources.resources'
+  at System.IO.FileStream.get_Length () [0x00053] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at System.Resources.ResourceReader.FindPosForResource (System.String name) [0x00102] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at System.Resources.RuntimeResourceSet.GetObject (System.String key, System.Boolean ignoreCase, System.Boolean isString) [0x00088] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at System.Resources.RuntimeResourceSet.GetString (System.String key, System.Boolean ignoreCase) [0x00000] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at System.Resources.ResourceManager.GetString (System.String name, System.Globalization.CultureInfo culture) [0x00028] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at Honeywell.Firebird.CoreLibrary.Localization.LocalizationResources.GetString (System.String name, System.Globalization.CultureInfo cultureInfo) [0x00015] in <873463fec888466aab8931e739082f99>:0 
+  at Honeywell.Firebird.CoreLibrary.Localization.Translate.GetLocalizedTextForKey (System.String key, System.String[] args) [0x0001e] in <873463fec888466aab8931e739082f99>:0 
+  at Honeywell.Firebird.CoreLibrary.Localization.TranslateExtension.GetLocalizedTextForBaseKey (System.String baseKey, System.String[] args) [0x0001e] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.CoreLibrary.GlobalWordService+<>c.<.ctor>b__23_5 (System.String localizationKey) [0x00006] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at System.Linq.Enumerable+SelectIListIterator`2[TSource,TResult].GetCount (System.Boolean onlyIfCheap) [0x00025] in <f6d5bc5d8be74202a9634c6d539504ce>:0 
+  at System.Linq.Enumerable.Count[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x00029] in <f6d5bc5d8be74202a9634c6d539504ce>:0 
+  at Honeywell.DialogueRunner.Phrase..ctor (System.Collections.Generic.IEnumerable`1[T] words) [0x00006] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.CoreLibrary.GlobalWordService+<>c.<.ctor>b__23_0 (System.Collections.ObjectModel.ReadOnlyCollection`1[T] localizationKeyList) [0x00025] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at System.Linq.Enumerable+SelectListIterator`2[TSource,TResult].ToList () [0x0002a] in <f6d5bc5d8be74202a9634c6d539504ce>:0 
+  at System.Linq.Enumerable.ToList[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <f6d5bc5d8be74202a9634c6d539504ce>:0 
+  at Honeywell.Firebird.CoreLibrary.GlobalWordService..ctor (System.String tag, System.Windows.Input.ICommand publishCommand, System.Collections.Generic.IList`1[T] phraseLocalizationKeyLists, System.Collections.Generic.IList`1[T] inactivePhraseLocalizationKeyLists) [0x00074] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.CoreLibrary.CoreViewController.CreateViewModel (System.String viewModelName) [0x000e7] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.CoreLibrary.ReadyController.CreateViewModel (System.String viewModelName) [0x00000] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.CoreLibrary.HomeController.CreateViewModel (System.String viewModelName) [0x00000] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at GuidedWork.GuidedWorkHomeController.CreateViewModel (System.String viewModelName) [0x0001b] in <b4e0ae238d7a4adaa054ffd48d1c9536>:0 
+  at Honeywell.Firebird.ViewController`1[TVM].StartInternalAsync (Honeywell.Firebird.NavigationReason reason) [0x00018] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.ViewController`1[TVM].StartAsync (Honeywell.Firebird.NavigationReason reason) [0x000d0] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+2023-12-14 11:07:00.395 [INFO]  AndroidResourceMonitor - [28] MaxMem: 268435456 - TotalMem: 5409213 - FreeMem: 2524381 - GCTotalMem: 6957760:
+2023-12-14 11:07:10.395 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5409213 - FreeMem: 2524381 - GCTotalMem: 6957760:
+2023-12-14 11:07:20.395 [INFO]  AndroidResourceMonitor - [28] MaxMem: 268435456 - TotalMem: 5409213 - FreeMem: 2524381 - GCTotalMem: 6957760:
+2023-12-14 11:07:30.396 [INFO]  AndroidResourceMonitor - [28] MaxMem: 268435456 - TotalMem: 5409213 - FreeMem: 2524381 - GCTotalMem: 6957760:
+2023-12-14 11:07:40.396 [INFO]  AndroidResourceMonitor - [20] MaxMem: 268435456 - TotalMem: 5409213 - FreeMem: 2524381 - GCTotalMem: 6957760:
+2023-12-14 11:07:41.037 [ERROR] Honeywell.Firebird.CoreLibrary.Droid.AndroidExceptionLogger - [2] LogUnobservedTaskException: sender=System.Threading.Tasks.Task`1[System.Threading.Tasks.VoidTaskResult], Observed=False, Exception=System.AggregateException: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Could not find file "/storage/emulated/0/Documents/GWExternalResources.resources") ---> System.IO.FileNotFoundException: Could not find file "/storage/emulated/0/Documents/GWExternalResources.resources"
+  at System.IO.FileStream.get_Length () [0x00053] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at System.Resources.ResourceReader.FindPosForResource (System.String name) [0x00102] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at System.Resources.RuntimeResourceSet.GetObject (System.String key, System.Boolean ignoreCase, System.Boolean isString) [0x00088] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at System.Resources.RuntimeResourceSet.GetString (System.String key, System.Boolean ignoreCase) [0x00000] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at System.Resources.ResourceManager.GetString (System.String name, System.Globalization.CultureInfo culture) [0x00028] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at Honeywell.Firebird.CoreLibrary.Localization.LocalizationResources.GetString (System.String name, System.Globalization.CultureInfo cultureInfo) [0x00015] in <873463fec888466aab8931e739082f99>:0 
+  at Honeywell.Firebird.CoreLibrary.Localization.Translate.GetLocalizedTextForKey (System.String key, System.String[] args) [0x0001e] in <873463fec888466aab8931e739082f99>:0 
+  at Honeywell.Firebird.CoreLibrary.Localization.TranslateExtension.GetLocalizedTextForBaseKey (System.String baseKey, System.String[] args) [0x0001e] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.CoreLibrary.GlobalWordService+<>c.<.ctor>b__23_5 (System.String localizationKey) [0x00006] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at System.Linq.Enumerable+SelectIListIterator`2[TSource,TResult].GetCount (System.Boolean onlyIfCheap) [0x00025] in <f6d5bc5d8be74202a9634c6d539504ce>:0 
+  at System.Linq.Enumerable.Count[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x00029] in <f6d5bc5d8be74202a9634c6d539504ce>:0 
+  at Honeywell.DialogueRunner.Phrase..ctor (System.Collections.Generic.IEnumerable`1[T] words) [0x00006] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.CoreLibrary.GlobalWordService+<>c.<.ctor>b__23_0 (System.Collections.ObjectModel.ReadOnlyCollection`1[T] localizationKeyList) [0x00025] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at System.Linq.Enumerable+SelectListIterator`2[TSource,TResult].ToList () [0x0002a] in <f6d5bc5d8be74202a9634c6d539504ce>:0 
+  at System.Linq.Enumerable.ToList[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <f6d5bc5d8be74202a9634c6d539504ce>:0 
+  at Honeywell.Firebird.CoreLibrary.GlobalWordService..ctor (System.String tag, System.Windows.Input.ICommand publishCommand, System.Collections.Generic.IList`1[T] phraseLocalizationKeyLists, System.Collections.Generic.IList`1[T] inactivePhraseLocalizationKeyLists) [0x00074] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.CoreLibrary.CoreViewController.CreateViewModel (System.String viewModelName) [0x000e7] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.CoreLibrary.ReadyController.CreateViewModel (System.String viewModelName) [0x00000] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.CoreLibrary.HomeController.CreateViewModel (System.String viewModelName) [0x00000] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at GuidedWork.GuidedWorkHomeController.CreateViewModel (System.String viewModelName) [0x0001b] in <b4e0ae238d7a4adaa054ffd48d1c9536>:0 
+  at Honeywell.Firebird.ViewController`1[TVM].StartInternalAsync (Honeywell.Firebird.NavigationReason reason) [0x00018] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.ViewController`1[TVM].StartAsync (Honeywell.Firebird.NavigationReason reason) [0x0015d] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.WorkflowEngine.WorkflowActivityLeafUI.StartAsync (Honeywell.Firebird.NavigationReason reason) [0x000d5] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.WorkflowEngine.WorkflowActivityComposite.PushReplaceAsync (System.String destination) [0x00260] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.WorkflowEngine.PushReplaceTransitionEventHandler.ExecuteAsync (System.Object parameter) [0x00080] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.WorkflowEngine.WorkflowActivityComponent.PublishEventMessageInternalAsync (Honeywell.Firebird.WorkflowEngine.WfaEventMessage message, System.String logText) [0x00151] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.WorkflowEngine.WorkflowActivityComposite.PublishEventMessageInternalAsync (Honeywell.Firebird.WorkflowEngine.WfaEventMessage message, System.String logText) [0x00196] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.WorkflowEngine.WorkflowActivityComponent.PublishEventMessageInternalAsync (Honeywell.Firebird.WorkflowEngine.WfaEventMessage message, System.String logText) [0x00234] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.WorkflowEngine.WorkflowActivityLeaf.PublishEventMessageAsync (Honeywell.Firebird.WorkflowEngine.WfaEventMessage message) [0x001b2] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.WorkflowEngine.WorkflowActivityLeaf.PublishEventMessage (Honeywell.Firebird.WorkflowEngine.WfaEventMessage message) [0x0007b] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.IO.FileNotFoundException: Could not find file "/storage/emulated/0/Documents/GWExternalResources.resources"
+File name: '/storage/emulated/0/Documents/GWExternalResources.resources'
+  at System.IO.FileStream.get_Length () [0x00053] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at System.Resources.ResourceReader.FindPosForResource (System.String name) [0x00102] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at System.Resources.RuntimeResourceSet.GetObject (System.String key, System.Boolean ignoreCase, System.Boolean isString) [0x00088] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at System.Resources.RuntimeResourceSet.GetString (System.String key, System.Boolean ignoreCase) [0x00000] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at System.Resources.ResourceManager.GetString (System.String name, System.Globalization.CultureInfo culture) [0x00028] in <33afe1ecc84c44a2a88b5deafc400c5b>:0 
+  at Honeywell.Firebird.CoreLibrary.Localization.LocalizationResources.GetString (System.String name, System.Globalization.CultureInfo cultureInfo) [0x00015] in <873463fec888466aab8931e739082f99>:0 
+  at Honeywell.Firebird.CoreLibrary.Localization.Translate.GetLocalizedTextForKey (System.String key, System.String[] args) [0x0001e] in <873463fec888466aab8931e739082f99>:0 
+  at Honeywell.Firebird.CoreLibrary.Localization.TranslateExtension.GetLocalizedTextForBaseKey (System.String baseKey, System.String[] args) [0x0001e] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.CoreLibrary.GlobalWordService+<>c.<.ctor>b__23_5 (System.String localizationKey) [0x00006] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at System.Linq.Enumerable+SelectIListIterator`2[TSource,TResult].GetCount (System.Boolean onlyIfCheap) [0x00025] in <f6d5bc5d8be74202a9634c6d539504ce>:0 
+  at System.Linq.Enumerable.Count[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x00029] in <f6d5bc5d8be74202a9634c6d539504ce>:0 
+  at Honeywell.DialogueRunner.Phrase..ctor (System.Collections.Generic.IEnumerable`1[T] words) [0x00006] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.CoreLibrary.GlobalWordService+<>c.<.ctor>b__23_0 (System.Collections.ObjectModel.ReadOnlyCollection`1[T] localizationKeyList) [0x00025] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at System.Linq.Enumerable+SelectListIterator`2[TSource,TResult].ToList () [0x0002a] in <f6d5bc5d8be74202a9634c6d539504ce>:0 
+  at System.Linq.Enumerable.ToList[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <f6d5bc5d8be74202a9634c6d539504ce>:0 
+  at Honeywell.Firebird.CoreLibrary.GlobalWordService..ctor (System.String tag, System.Windows.Input.ICommand publishCommand, System.Collections.Generic.IList`1[T] phraseLocalizationKeyLists, System.Collections.Generic.IList`1[T] inactivePhraseLocalizationKeyLists) [0x00074] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.CoreLibrary.CoreViewController.CreateViewModel (System.String viewModelName) [0x000e7] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.CoreLibrary.ReadyController.CreateViewModel (System.String viewModelName) [0x00000] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.CoreLibrary.HomeController.CreateViewModel (System.String viewModelName) [0x00000] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at GuidedWork.GuidedWorkHomeController.CreateViewModel (System.String viewModelName) [0x0001b] in <b4e0ae238d7a4adaa054ffd48d1c9536>:0 
+  at Honeywell.Firebird.ViewController`1[TVM].StartInternalAsync (Honeywell.Firebird.NavigationReason reason) [0x00018] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.ViewController`1[TVM].StartAsync (Honeywell.Firebird.NavigationReason reason) [0x0015d] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.WorkflowEngine.WorkflowActivityLeafUI.StartAsync (Honeywell.Firebird.NavigationReason reason) [0x000d5] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.WorkflowEngine.WorkflowActivityComposite.PushReplaceAsync (System.String destination) [0x00260] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.WorkflowEngine.PushReplaceTransitionEventHandler.ExecuteAsync (System.Object parameter) [0x00080] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.WorkflowEngine.WorkflowActivityComponent.PublishEventMessageInternalAsync (Honeywell.Firebird.WorkflowEngine.WfaEventMessage message, System.String logText) [0x00151] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.WorkflowEngine.WorkflowActivityComposite.PublishEventMessageInternalAsync (Honeywell.Firebird.WorkflowEngine.WfaEventMessage message, System.String logText) [0x00196] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.WorkflowEngine.WorkflowActivityComponent.PublishEventMessageInternalAsync (Honeywell.Firebird.WorkflowEngine.WfaEventMessage message, System.String logText) [0x00234] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.WorkflowEngine.WorkflowActivityLeaf.PublishEventMessageAsync (Honeywell.Firebird.WorkflowEngine.WfaEventMessage message) [0x001b2] in <4ebc3f9aed484f06b20ab574b411e144>:0 
+  at Honeywell.Firebird.WorkflowEngine.WorkflowActivityLeaf.PublishEventMessage (Honeywell.Firebird.WorkflowEngine.WfaEventMessage message) [0x0007b] in <4ebc3f9aed484f06b20ab574b411e144>:0 <---
+
+2023-12-14 11:07:41.063 [INFO]  MainActivity - [28] Running Garbage Collection
+2023-12-14 11:07:50.396 [INFO]  AndroidResourceMonitor - [28] MaxMem: 268435456 - TotalMem: 5411743 - FreeMem: 2689487 - GCTotalMem: 6886736:
+2023-12-14 11:08:00.397 [INFO]  AndroidResourceMonitor - [28] MaxMem: 268435456 - TotalMem: 5411743 - FreeMem: 2656719 - GCTotalMem: 6887216:
+2023-12-14 11:08:10.396 [INFO]  AndroidResourceMonitor - [35] MaxMem: 268435456 - TotalMem: 5411743 - FreeMem: 2656719 - GCTotalMem: 6887216:
+2023-12-14 11:08:20.396 [INFO]  AndroidResourceMonitor - [35] MaxMem: 268435456 - TotalMem: 5411743 - FreeMem: 2656719 - GCTotalMem: 6887216:
+2023-12-14 11:08:30.397 [INFO]  AndroidResourceMonitor - [35] MaxMem: 268435456 - TotalMem: 5411743 - FreeMem: 2656719 - GCTotalMem: 6887216:
+2023-12-14 11:08:40.397 [INFO]  AndroidResourceMonitor - [28] MaxMem: 268435456 - TotalMem: 5411743 - FreeMem: 2656719 - GCTotalMem: 6887216:
+2023-12-14 11:08:41.116 [INFO]  MainActivity - [35] Running Garbage Collection
+2023-12-14 11:08:50.397 [INFO]  AndroidResourceMonitor - [35] MaxMem: 268435456 - TotalMem: 5411678 - FreeMem: 2689454 - GCTotalMem: 6883960:
+2023-12-14 11:09:00.398 [INFO]  AndroidResourceMonitor - [28] MaxMem: 268435456 - TotalMem: 5411678 - FreeMem: 2673070 - GCTotalMem: 6884200:
+2023-12-14 11:09:10.397 [INFO]  AndroidResourceMonitor - [35] MaxMem: 268435456 - TotalMem: 5411678 - FreeMem: 2673070 - GCTotalMem: 6884200:
+2023-12-14 11:09:20.397 [INFO]  AndroidResourceMonitor - [28] MaxMem: 268435456 - TotalMem: 5411678 - FreeMem: 2673070 - GCTotalMem: 6884200:
+2023-12-14 11:09:30.397 [INFO]  AndroidResourceMonitor - [28] MaxMem: 268435456 - TotalMem: 5411678 - FreeMem: 2673070 - GCTotalMem: 6884200:
+2023-12-14 11:09:40.397 [INFO]  AndroidResourceMonitor - [35] MaxMem: 268435456 - TotalMem: 5411678 - FreeMem: 2673070 - GCTotalMem: 6884200:
+2023-12-14 11:09:41.172 [INFO]  MainActivity - [28] Running Garbage Collection
+2023-12-14 11:09:50.399 [INFO]  AndroidResourceMonitor - [28] MaxMem: 268435456 - TotalMem: 5411678 - FreeMem: 2673070 - GCTotalMem: 6884256:
+2023-12-14 11:10:00.398 [INFO]  AndroidResourceMonitor - [28] MaxMem: 268435456 - TotalMem: 5411678 - FreeMem: 2673070 - GCTotalMem: 6884256:
+2023-12-14 11:10:10.400 [INFO]  AndroidResourceMonitor - [37] MaxMem: 268435456 - TotalMem: 5411678 - FreeMem: 2640302 - GCTotalMem: 6884736:
+2023-12-14 11:10:20.399 [INFO]  AndroidResourceMonitor - [37] MaxMem: 268435456 - TotalMem: 5411678 - FreeMem: 2640302 - GCTotalMem: 6884736:
+2023-12-14 11:10:30.398 [INFO]  AndroidResourceMonitor - [37] MaxMem: 268435456 - TotalMem: 5411678 - FreeMem: 2640302 - GCTotalMem: 6884736:
+2023-12-14 11:10:40.399 [INFO]  AndroidResourceMonitor - [39] MaxMem: 268435456 - TotalMem: 5411678 - FreeMem: 2640302 - GCTotalMem: 6884736:
+2023-12-14 11:10:41.225 [INFO]  MainActivity - [37] Running Garbage Collection
+2023-12-14 11:10:50.398 [INFO]  AndroidResourceMonitor - [37] MaxMem: 268435456 - TotalMem: 5411277 - FreeMem: 2689253 - GCTotalMem: 6881464:
+2023-12-14 11:11:00.399 [INFO]  AndroidResourceMonitor - [37] MaxMem: 268435456 - TotalMem: 5411277 - FreeMem: 2689253 - GCTotalMem: 6881464:
+2023-12-14 11:11:10.399 [INFO]  AndroidResourceMonitor - [39] MaxMem: 268435456 - TotalMem: 5411277 - FreeMem: 2689253 - GCTotalMem: 6881464:
+2023-12-14 11:11:20.399 [INFO]  AndroidResourceMonitor - [39] MaxMem: 268435456 - TotalMem: 5411277 - FreeMem: 2672869 - GCTotalMem: 6881704:
+2023-12-14 11:11:30.399 [INFO]  AndroidResourceMonitor - [37] MaxMem: 268435456 - TotalMem: 5411277 - FreeMem: 2672869 - GCTotalMem: 6881704:
+2023-12-14 11:11:40.399 [INFO]  AndroidResourceMonitor - [39] MaxMem: 268435456 - TotalMem: 5411277 - FreeMem: 2672869 - GCTotalMem: 6881704:
+2023-12-14 11:11:41.277 [INFO]  MainActivity - [37] Running Garbage Collection
+2023-12-14 11:11:50.399 [INFO]  AndroidResourceMonitor - [37] MaxMem: 268435456 - TotalMem: 5411277 - FreeMem: 2689253 - GCTotalMem: 6881464:
+2023-12-14 11:12:00.399 [INFO]  AndroidResourceMonitor - [39] MaxMem: 268435456 - TotalMem: 5411277 - FreeMem: 2689253 - GCTotalMem: 6881464:
+2023-12-14 11:12:10.399 [INFO]  AndroidResourceMonitor - [37] MaxMem: 268435456 - TotalMem: 5411277 - FreeMem: 2689253 - GCTotalMem: 6881464:
+2023-12-14 11:12:20.398 [INFO]  AndroidResourceMonitor - [39] MaxMem: 268435456 - TotalMem: 5411277 - FreeMem: 2689253 - GCTotalMem: 6881464:
+2023-12-14 11:12:30.399 [INFO]  AndroidResourceMonitor - [39] MaxMem: 268435456 - TotalMem: 5411277 - FreeMem: 2672869 - GCTotalMem: 6881704:
+2023-12-14 11:12:40.399 [INFO]  AndroidResourceMonitor - [37] MaxMem: 268435456 - TotalMem: 5411277 - FreeMem: 2672869 - GCTotalMem: 6881704:
+2023-12-14 11:12:41.332 [INFO]  MainActivity - [39] Running Garbage Collection
+2023-12-14 11:12:50.400 [INFO]  AndroidResourceMonitor - [39] MaxMem: 268435456 - TotalMem: 5411613 - FreeMem: 2689421 - GCTotalMem: 6881520:
+2023-12-14 11:13:00.399 [INFO]  AndroidResourceMonitor - [39] MaxMem: 268435456 - TotalMem: 5411613 - FreeMem: 2689421 - GCTotalMem: 6881520:
+2023-12-14 11:13:10.400 [INFO]  AndroidResourceMonitor - [39] MaxMem: 268435456 - TotalMem: 5411613 - FreeMem: 2689421 - GCTotalMem: 6881520:
+2023-12-14 11:13:20.400 [INFO]  AndroidResourceMonitor - [37] MaxMem: 268435456 - TotalMem: 5411613 - FreeMem: 2689421 - GCTotalMem: 6881520:
+2023-12-14 11:13:30.401 [INFO]  AndroidResourceMonitor - [37] MaxMem: 268435456 - TotalMem: 5411613 - FreeMem: 2673037 - GCTotalMem: 6881760:
+2023-12-14 11:13:40.400 [INFO]  AndroidResourceMonitor - [39] MaxMem: 268435456 - TotalMem: 5411613 - FreeMem: 2673037 - GCTotalMem: 6881760:
+2023-12-14 11:13:41.393 [INFO]  MainActivity - [39] Running Garbage Collection
+2023-12-14 11:13:50.401 [INFO]  AndroidResourceMonitor - [37] MaxMem: 268435456 - TotalMem: 5411613 - FreeMem: 2673037 - GCTotalMem: 6881760:
+2023-12-14 11:13:56.903 [TRACE] AppCompatRootPageRenderer - [1] Navigation bar listener back button pressed on root nav stack
+2023-12-14 11:14:00.401 [INFO]  AndroidResourceMonitor - [43] MaxMem: 268435456 - TotalMem: 5411613 - FreeMem: 2525581 - GCTotalMem: 6881760:
+2023-12-14 11:14:10.400 [INFO]  AndroidResourceMonitor - [37] MaxMem: 268435456 - TotalMem: 5411613 - FreeMem: 2509197 - GCTotalMem: 6881760:
+2023-12-14 11:14:15.395 [TRACE] AppCompatRootPageRenderer - [1] Navigation bar listener back button pressed on root nav stack
+2023-12-14 11:14:18.054 [TRACE] AppCompatRootPageRenderer - [1] Navigation bar listener back button pressed on root nav stack
+2023-12-14 11:14:20.402 [INFO]  AndroidResourceMonitor - [37] MaxMem: 268435456 - TotalMem: 5411613 - FreeMem: 2345357 - GCTotalMem: 6881760:
+2023-12-14 11:14:21.228 [TRACE] AppCompatRootPageRenderer - [1] Navigation bar listener back button pressed on root nav stack
+2023-12-14 11:14:30.401 [INFO]  AndroidResourceMonitor - [37] MaxMem: 268435456 - TotalMem: 5411613 - FreeMem: 2263437 - GCTotalMem: 6881760:
+2023-12-14 11:14:40.403 [INFO]  AndroidResourceMonitor - [43] MaxMem: 268435456 - TotalMem: 5411613 - FreeMem: 2247053 - GCTotalMem: 6882280:
+2023-12-14 11:14:41.451 [INFO]  MainActivity - [37] Running Garbage Collection
+2023-12-14 11:14:50.401 [INFO]  AndroidResourceMonitor - [37] MaxMem: 268435456 - TotalMem: 5414397 - FreeMem: 2674429 - GCTotalMem: 6891960:
+2023-12-14 11:14:50.618 [TRACE] AppCompatRootPageRenderer - [1] Navigation bar listener back button pressed on root nav stack
+2023-12-14 11:14:53.917 [INFO]  MainActivity - [1] MainActivity.OnPause - IsFinishing=False
+2023-12-14 11:14:53.929 [INFO]  [[WfaLU: Name=HomeWorkflowActivity, Id=19] [WorkflowViewController: Type=GuidedWorkHomeController, Id=20]] - [1] [XamarinPageView: Type=GuidedWorkHomeView, ViewId=22] OnDisappearing
+2023-12-14 11:14:54.387 [INFO]  FormsApp - [1] OnSleep
+2023-12-14 11:14:55.007 [INFO]  MainActivity - [1] MainActivity.OnDestroy
+2023-12-14 11:14:55.016 [INFO]  MainActivity - [1] GuidedWorkMainActivity.OnDestroy
+2023-12-14 11:14:55.061 [INFO]  TextToSpeechService - [10] Got null prompt, exiting...
+2023-12-14 11:14:55.114 [INFO]  MicroserviceLicensingService - [43] Application has no lease.
