@@ -1,4 +1,5 @@
 # LLM_log_parser
+As the name suggests, this is a log parser web application which uses LLM to query on your log files
 
 This uses gradio library for creating a basic web application
 
